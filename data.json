@@ -1,0 +1,1548 @@
+{
+ "_note": "Cut protocol log — durable backup. The site is generated from this.",
+ "updated": "2026-09-05",
+ "targets": {
+  "cal": 2050,
+  "protein": 130,
+  "tdee": 2500,
+  "goalWeight": 150
+ },
+ "days": {
+  "2026-08-03": {
+   "sleep": {
+    "asleep": 402,
+    "inBed": 477,
+    "awake": 75,
+    "rem": 81,
+    "light": 231,
+    "deep": 91
+   }
+  },
+  "2026-08-04": {
+   "sleep": {
+    "asleep": 533,
+    "inBed": 651,
+    "awake": 118,
+    "rem": 107,
+    "light": 304,
+    "deep": 122
+   }
+  },
+  "2026-08-05": {
+   "sleep": {
+    "asleep": 283,
+    "inBed": 401,
+    "awake": 119,
+    "rem": 41,
+    "light": 171,
+    "deep": 71
+   }
+  },
+  "2026-08-06": {
+   "sleep": {
+    "asleep": 286,
+    "inBed": 299,
+    "awake": 13,
+    "rem": 59,
+    "light": 148,
+    "deep": 79
+   }
+  },
+  "2026-08-07": {
+   "sleep": {
+    "asleep": 301,
+    "inBed": 355,
+    "awake": 55,
+    "rem": 61,
+    "light": 152,
+    "deep": 89
+   }
+  },
+  "2026-08-08": {
+   "sleep": {
+    "asleep": 315,
+    "inBed": 368,
+    "awake": 53,
+    "rem": 45,
+    "light": 199,
+    "deep": 71
+   },
+   "food": [
+    {
+     "name": "Pizza, 2 slices",
+     "cal": 600,
+     "pro": 24
+    },
+    {
+     "name": "Grilled chicken sandwich",
+     "cal": 450,
+     "pro": 34
+    },
+    {
+     "name": "Arroz + chicken drumsticks",
+     "cal": 525,
+     "pro": 30
+    }
+   ],
+   "training": [
+    {
+     "type": "Circuit",
+     "min": 31,
+     "avgHr": 120,
+     "peakHr": 166,
+     "cal": 190,
+     "zones": {
+      "z2": 20,
+      "z3": 4,
+      "z4": 3
+     },
+     "source": "Oura"
+    }
+   ]
+  },
+  "2026-08-09": {
+   "sleep": {
+    "asleep": 387,
+    "inBed": 476,
+    "awake": 90,
+    "rem": 90,
+    "light": 217,
+    "deep": 80
+   },
+   "food": [
+    {
+     "name": "Grilled chicken sandwich w/ bacon",
+     "cal": 600,
+     "pro": 50
+    },
+    {
+     "name": "Wings air fried, 9 whole",
+     "cal": 950,
+     "pro": 85
+    },
+    {
+     "name": "Arroz blanco, 1 cup",
+     "cal": 205,
+     "pro": 4
+    },
+    {
+     "name": "Habichuelas, 1 cup",
+     "cal": 220,
+     "pro": 13
+    }
+   ],
+   "training": [
+    {
+     "type": "Circuit",
+     "min": 30,
+     "avgHr": 140,
+     "peakHr": 171,
+     "cal": 237,
+     "zones": {
+      "z2": 8,
+      "z3": 15,
+      "z4": 3
+     },
+     "source": "Apple Watch",
+     "note": "81°F / 84% humidity"
+    }
+   ]
+  },
+  "2026-08-10": {
+   "weight": 165.5,
+   "sleep": {
+    "asleep": 487,
+    "inBed": 579,
+    "awake": 93,
+    "rem": 83,
+    "light": 342,
+    "deep": 62
+   },
+   "food": [
+    {
+     "name": "Egg, ham, cheese sandwich",
+     "cal": 550,
+     "pro": 28
+    },
+    {
+     "name": "Wings air fried, 6 pc",
+     "cal": 330,
+     "pro": 28
+    },
+    {
+     "name": "Arroz, ½ cup",
+     "cal": 105,
+     "pro": 2
+    },
+    {
+     "name": "Habichuelas, ½ cup",
+     "cal": 110,
+     "pro": 7
+    },
+    {
+     "name": "Pork chop, large",
+     "cal": 480,
+     "pro": 58
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength A",
+     "min": 40,
+     "avgHr": 130,
+     "peakHr": 176,
+     "cal": 272,
+     "source": "Apple Watch",
+     "note": "92°F / 62% humidity — heat index ~105"
+    },
+    {
+     "type": "Yardwork",
+     "min": 29,
+     "avgHr": 116,
+     "peakHr": 125,
+     "cal": 157,
+     "zones": {
+      "z1": 3,
+      "z2": 25
+     },
+     "source": "Oura"
+    }
+   ]
+  },
+  "2026-08-11": {
+   "weight": 165.5,
+   "partial": true,
+   "sleep": {
+    "asleep": 546,
+    "inBed": 693,
+    "awake": 147,
+    "rem": 134,
+    "light": 312,
+    "deep": 101
+   },
+   "food": [
+    {
+     "name": "Scrambled eggs, 3, w/ cheese",
+     "cal": 380,
+     "pro": 27
+    },
+    {
+     "name": "Sangria, 2 (Capa)",
+     "cal": 440,
+     "pro": 0
+    },
+    {
+     "name": "Patatas bravas",
+     "cal": 500,
+     "pro": 8
+    },
+    {
+     "name": "Paella de setas",
+     "cal": 800,
+     "pro": 22
+    },
+    {
+     "name": "Premier protein shakes, 2",
+     "cal": 320,
+     "pro": 60
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength B",
+     "min": 29,
+     "avgHr": 136,
+     "peakHr": 172,
+     "cal": 213,
+     "source": "Apple Watch",
+     "note": "92°F / 60% humidity — heat index ~103"
+    }
+   ]
+  },
+  "2026-08-12": {
+   "weight": 166.2,
+   "sleep": {
+    "asleep": 288,
+    "inBed": 345,
+    "awake": 58,
+    "rem": 39,
+    "light": 223,
+    "deep": 26
+   },
+   "food": [
+    {
+     "name": "Arroz, ½ cup",
+     "cal": 105,
+     "pro": 2
+    },
+    {
+     "name": "Habichuelas, ½ cup",
+     "cal": 110,
+     "pro": 7
+    },
+    {
+     "name": "Pork chop, large",
+     "cal": 480,
+     "pro": 58
+    },
+    {
+     "name": "Coke Zero",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "Celsius packet",
+     "cal": 10,
+     "pro": 0
+    },
+    {
+     "name": "Pork chop, large",
+     "cal": 480,
+     "pro": 58
+    },
+    {
+     "name": "Premier protein shake",
+     "cal": 160,
+     "pro": 30
+    },
+    {
+     "name": "Chicharrones, ~8 pieces",
+     "cal": 50,
+     "pro": 5
+    }
+   ],
+   "training": [
+    {
+     "type": "Circuit",
+     "min": 21,
+     "avgHr": 108,
+     "peakHr": 116,
+     "cal": 88,
+     "zones": {
+      "z1": 12,
+      "z2": 8
+     },
+     "source": "Oura"
+    }
+   ]
+  },
+  "2026-08-13": {
+   "weight": 164.6,
+   "sleep": {
+    "asleep": 264,
+    "inBed": 298,
+    "awake": 35,
+    "rem": 38,
+    "light": 182,
+    "deep": 45
+   },
+   "food": [
+    {
+     "name": "Avena, 8 oz (La Bahía)",
+     "cal": 280,
+     "pro": 11
+    },
+    {
+     "name": "Omelet — ham, Swiss, peppers, onion, tomato",
+     "cal": 450,
+     "pro": 33
+    },
+    {
+     "name": "Toast (pan sobao, buttered)",
+     "cal": 220,
+     "pro": 5
+    },
+    {
+     "name": "Cava bowl — chicken, feta + tzatziki, no dressing",
+     "cal": 610,
+     "pro": 38
+    },
+    {
+     "name": "Premier protein shakes, 2",
+     "cal": 320,
+     "pro": 60
+    }
+   ],
+   "training": [
+    {
+     "type": "Short day",
+     "min": 27,
+     "avgHr": 108,
+     "peakHr": 120,
+     "cal": 114,
+     "zones": {
+      "z1": 12,
+      "z2": 14
+     },
+     "source": "Oura"
+    }
+   ]
+  },
+  "2026-08-14": {
+   "weight": 164.5,
+   "sleep": {
+    "asleep": 257,
+    "inBed": 292,
+    "awake": 35,
+    "rem": 49,
+    "light": 141,
+    "deep": 68
+   },
+   "food": [
+    {
+     "name": "TropiChop — double grilled chicken, beans, no sauce",
+     "cal": 520,
+     "pro": 55
+    },
+    {
+     "name": "Coke Zero",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "Premier protein shake",
+     "cal": 160,
+     "pro": 30
+    },
+    {
+     "name": "Filet mignon, 8.6 oz total",
+     "cal": 450,
+     "pro": 50
+    },
+    {
+     "name": "Mashed potatoes, Idahoan pouch",
+     "cal": 440,
+     "pro": 8
+    }
+   ]
+  },
+  "2026-08-15": {
+   "weight": 164.5,
+   "sleep": {
+    "asleep": 385,
+    "inBed": 408,
+    "awake": 23,
+    "rem": 82,
+    "light": 243,
+    "deep": 60
+   },
+   "food": [
+    {
+     "name": "Lo mein + sweet and sour chicken + broccoli (Moffitt)",
+     "cal": 850,
+     "pro": 38
+    },
+    {
+     "name": "Diet Coke",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "Breaded stuffed chicken breast, 2 pc",
+     "cal": 600,
+     "pro": 42
+    },
+    {
+     "name": "Arroz, ½ cup",
+     "cal": 105,
+     "pro": 2
+    },
+    {
+     "name": "Habichuelas, 1 cup",
+     "cal": 220,
+     "pro": 13
+    },
+    {
+     "name": "Premier protein shake",
+     "cal": 160,
+     "pro": 30
+    },
+    {
+     "name": "Lettuce and tomato salad",
+     "cal": 20,
+     "pro": 1
+    }
+   ],
+   "training": [
+    {
+     "type": "Short day",
+     "min": 32,
+     "avgHr": 130,
+     "peakHr": 163,
+     "cal": 219,
+     "source": "Apple Watch",
+     "note": "85°F / 79% humidity — effort self-rated 5/10"
+    }
+   ]
+  },
+  "2026-08-16": {
+   "weight": 165.1,
+   "sleep": {
+    "asleep": 407,
+    "inBed": 467,
+    "awake": 60,
+    "rem": 73,
+    "light": 291,
+    "deep": 44
+   },
+   "food": [
+    {
+     "name": "Grilled chicken sandwich, bacon + pepper jack (Moffitt)",
+     "cal": 780,
+     "pro": 52
+    },
+    {
+     "name": "Coke Zero Cherry",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "8 oz sirloin (Texas Roadhouse)",
+     "cal": 420,
+     "pro": 62
+    },
+    {
+     "name": "Sautéed veg — broccoli, carrot, mushroom, onion",
+     "cal": 120,
+     "pro": 4
+    },
+    {
+     "name": "Caesar salad",
+     "cal": 300,
+     "pro": 8
+    }
+   ]
+  },
+  "2026-08-17": {
+   "weight": 165.5,
+   "sleep": {
+    "asleep": 462,
+    "inBed": 511,
+    "awake": 49,
+    "rem": 83,
+    "light": 283,
+    "deep": 97
+   },
+   "food": [
+    {
+     "name": "Egg + chicken burrito (Wawa)",
+     "cal": 620,
+     "pro": 40
+    },
+    {
+     "name": "Wings air fried, 7 whole (14 pc)",
+     "cal": 740,
+     "pro": 66
+    },
+    {
+     "name": "Arroz, ½ cup",
+     "cal": 105,
+     "pro": 2
+    },
+    {
+     "name": "Habichuelas, 1 cup",
+     "cal": 220,
+     "pro": 13
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1
+    },
+    {
+     "name": "Coke Zero, 2",
+     "cal": 0,
+     "pro": 0
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength A",
+     "min": 43,
+     "avgHr": 132,
+     "peakHr": 173,
+     "cal": 303,
+     "source": "Apple Watch",
+     "note": "93°F / 56% humidity — effort self-rated 7/10"
+    }
+   ]
+  },
+  "2026-08-18": {
+   "weight": 163.7,
+   "sleep": {
+    "asleep": 551,
+    "inBed": 671,
+    "awake": 120,
+    "rem": 110,
+    "light": 376,
+    "deep": 66
+   },
+   "food": [
+    {
+     "name": "Ultimate omelet — bacon, sausage, ham, cheese",
+     "cal": 790,
+     "pro": 48
+    },
+    {
+     "name": "Hash browns",
+     "cal": 380,
+     "pro": 4
+    },
+    {
+     "name": "Pancakes, 2 small + minimal syrup",
+     "cal": 260,
+     "pro": 6
+    },
+    {
+     "name": "Half chicken (Pollo Tropical)",
+     "cal": 480,
+     "pro": 78
+    },
+    {
+     "name": "Caesar salad",
+     "cal": 290,
+     "pro": 8
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength B",
+     "min": 37,
+     "avgHr": 135,
+     "peakHr": 175,
+     "cal": 271,
+     "source": "Apple Watch",
+     "note": "88°F / 66% humidity — effort self-rated 6/10"
+    }
+   ]
+  },
+  "2026-08-19": {
+   "weight": 163.9,
+   "bodyFat": 16.2,
+   "bodyFatNote": "Omron HBF-306C handheld, 3 readings averaged — trend tool only",
+   "sleep": {
+    "asleep": 362,
+    "inBed": 434,
+    "awake": 72,
+    "rem": 62,
+    "light": 225,
+    "deep": 75
+   },
+   "food": [
+    {
+     "name": "TropiChop — double chicken, rice, black beans, veg",
+     "cal": 700,
+     "pro": 60
+    },
+    {
+     "name": "Wings air fried, 6 whole (12 pc)",
+     "cal": 630,
+     "pro": 57
+    },
+    {
+     "name": "Premier protein shake",
+     "cal": 160,
+     "pro": 30
+    }
+   ]
+  },
+  "2026-08-20": {
+   "weight": 163.6,
+   "sleep": {
+    "asleep": 302,
+    "inBed": 327,
+    "awake": 26,
+    "rem": 66,
+    "light": 189,
+    "deep": 48
+   },
+   "food": [
+    {
+     "name": "TropiChop — chicken partly left (undercooked)",
+     "cal": 550,
+     "pro": 35
+    },
+    {
+     "name": "Penne pesto with steak",
+     "cal": 800,
+     "pro": 45
+    },
+    {
+     "name": "Premier protein shakes, 2",
+     "cal": 320,
+     "pro": 60
+    }
+   ]
+  },
+  "2026-08-21": {
+   "weight": 163.1,
+   "sleep": {
+    "asleep": 265,
+    "inBed": 295,
+    "awake": 30,
+    "rem": 36,
+    "light": 149,
+    "deep": 81
+   },
+   "food": [
+    {
+     "name": "Avena, 8 oz (La Bahía)",
+     "cal": 280,
+     "pro": 11
+    },
+    {
+     "name": "Omelet — peppers, onions, cheese",
+     "cal": 400,
+     "pro": 26
+    },
+    {
+     "name": "Pan sobao, 3 small pieces",
+     "cal": 300,
+     "pro": 7
+    },
+    {
+     "name": "Manzano bananas, 2",
+     "cal": 160,
+     "pro": 2
+    },
+    {
+     "name": "Beef + plátano empanada (Box of Cubans)",
+     "cal": 320,
+     "pro": 12
+    },
+    {
+     "name": "Chicken parm, 2 thin breasts, pan seared",
+     "cal": 520,
+     "pro": 60
+    },
+    {
+     "name": "Arroz, small portion",
+     "cal": 100,
+     "pro": 2
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1
+    }
+   ],
+   "training": [
+    {
+     "type": "Circuit",
+     "min": 36,
+     "avgHr": 124,
+     "peakHr": 199,
+     "cal": 231,
+     "source": "Apple Watch",
+     "note": "80°F / 82% humidity — peak 199 almost certainly a sensor artifact"
+    }
+   ]
+  },
+  "2026-08-22": {
+   "weight": 163.4,
+   "sleep": {
+    "asleep": 379,
+    "inBed": 413,
+    "awake": 34,
+    "rem": 76,
+    "light": 233,
+    "deep": 71
+   },
+   "food": [
+    {
+     "name": "Grilled chicken sandwich, bacon, brioche (Moffitt)",
+     "cal": 780,
+     "pro": 52
+    },
+    {
+     "name": "Coke Zero",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "Pollo guisado, 8 oz",
+     "cal": 430,
+     "pro": 60
+    },
+    {
+     "name": "Habichuelas, 1 cup",
+     "cal": 220,
+     "pro": 13
+    },
+    {
+     "name": "Arroz, ¾ cup",
+     "cal": 155,
+     "pro": 3
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1
+    }
+   ],
+   "training": [
+    {
+     "type": "Circuit — Cindy",
+     "min": 28,
+     "avgHr": 139,
+     "peakHr": 170,
+     "cal": 218,
+     "source": "Apple Watch",
+     "sets": "9 rounds · 5 pull-ups / 10 push-ups / 15 air squats = 45 / 90 / 135",
+     "note": "80°F / 84% humidity — effort self-rated 6/10"
+    }
+   ]
+  },
+  "2026-08-23": {
+   "weight": 162.9,
+   "sleep": {
+    "asleep": 366,
+    "inBed": 410,
+    "awake": 45,
+    "rem": 90,
+    "light": 210,
+    "deep": 66
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1 cup milk, Splenda",
+     "cal": 150,
+     "pro": 8
+    },
+    {
+     "name": "Grilled chicken sandwich, bacon, brioche (Moffitt)",
+     "cal": 780,
+     "pro": 52
+    },
+    {
+     "name": "Coke Zero",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "Lasagna, light on the beef",
+     "cal": 550,
+     "pro": 25
+    },
+    {
+     "name": "Premier protein shakes, 2",
+     "cal": 320,
+     "pro": 60
+    }
+   ]
+  },
+  "2026-08-24": {
+   "weight": 162.5,
+   "bodyFat": 13.7,
+   "bodyFatNote": "Omron handheld, 3 readings (13.9 / 13.8 / 13.4). Home, fasted, morning — this is the standardized baseline. The Aug 19–20 readings were taken at work, not fasted, and are not comparable.",
+   "sleep": {
+    "asleep": 462,
+    "inBed": 545,
+    "awake": 83,
+    "rem": 89,
+    "light": 273,
+    "deep": 101
+   },
+   "food": [
+    {
+     "name": "Scrambled eggs, 173g",
+     "cal": 280,
+     "pro": 19
+    },
+    {
+     "name": "Café con leche — 1¼ cup whole milk, Splenda",
+     "cal": 190,
+     "pro": 10
+    },
+    {
+     "name": "Cuban sandwich (La Criolla)",
+     "cal": 750,
+     "pro": 45
+    },
+    {
+     "name": "Quarter chicken, white meat (Pollo Tropical)",
+     "cal": 320,
+     "pro": 50
+    },
+    {
+     "name": "Habichuelas negras",
+     "cal": 220,
+     "pro": 9
+    },
+    {
+     "name": "Arroz blanco",
+     "cal": 190,
+     "pro": 3
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength A",
+     "min": 40,
+     "avgHr": 130,
+     "peakHr": 172,
+     "cal": 208,
+     "source": "Apple Watch",
+     "sets": "Pull-ups 10/10/10/10 (40) · Dips 6/6/6/6 (24), felt good",
+     "note": "81°F / 80% humidity — first session with dips, flyes, hands-elevated push-ups. Effort self-rated 9/10."
+    }
+   ]
+  },
+  "2026-08-25": {
+   "weight": 164.6,
+   "partial": true,
+   "sleep": {
+    "asleep": 390,
+    "inBed": 463,
+    "awake": 73,
+    "rem": 66,
+    "light": 265,
+    "deep": 59
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup whole milk, Splenda",
+     "cal": 190,
+     "pro": 10
+    },
+    {
+     "name": "Eggs, 3, with tomato and green pepper",
+     "cal": 230,
+     "pro": 19
+    },
+    {
+     "name": "Honey roasted turkey breast, 2 oz",
+     "cal": 70,
+     "pro": 10
+    },
+    {
+     "name": "Café con leche — ¾ cup whole milk, Splenda",
+     "cal": 110,
+     "pro": 6
+    },
+    {
+     "name": "Premier protein shake",
+     "cal": 160,
+     "pro": 30
+    },
+    {
+     "name": "Chicken croquetas, 3",
+     "cal": 270,
+     "pro": 12
+    },
+    {
+     "name": "Ribeye, 4.35 oz, with homemade butter",
+     "cal": 430,
+     "pro": 35
+    },
+    {
+     "name": "Arroz, 1 cup",
+     "cal": 205,
+     "pro": 4
+    },
+    {
+     "name": "Habichuelas, 1 cup",
+     "cal": 220,
+     "pro": 13
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength B",
+     "min": 59,
+     "avgHr": 125,
+     "peakHr": 161,
+     "cal": 282,
+     "source": "Apple Watch",
+     "sets": "Bent-over DB rows 2×40 lb: 12/10/12 (subbed for inverted rows) · full session completed",
+     "note": "84°F / 73% humidity — effort self-rated 10/10, 59 min vs 40 prescribed"
+    }
+   ]
+  },
+  "2026-08-26": {
+   "weight": 163.4,
+   "sleep": {
+    "asleep": 327,
+    "inBed": 363,
+    "awake": 36,
+    "rem": 62,
+    "light": 205,
+    "deep": 61
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Tortilla del oeste + extra egg (La Bahía)",
+     "cal": 560,
+     "pro": 38
+    },
+    {
+     "name": "Avena, 8 oz",
+     "cal": 280,
+     "pro": 11
+    },
+    {
+     "name": "Pan sobao, 3 small pieces",
+     "cal": 300,
+     "pro": 7
+    },
+    {
+     "name": "Chicken shawarma plate w/ rice + yogurt sauce (Darna)",
+     "cal": 850,
+     "pro": 65
+    }
+   ]
+  },
+  "2026-08-27": {
+   "weight": 163.1,
+   "sleep": {
+    "asleep": 325,
+    "inBed": 354,
+    "awake": 30,
+    "rem": 72,
+    "light": 201,
+    "deep": 53
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Avena, 8 oz",
+     "cal": 280,
+     "pro": 11
+    },
+    {
+     "name": "Desayuno tradicional — omelet, 3 bacon, veg, no bread (La Bahía)",
+     "cal": 665,
+     "pro": 47
+    },
+    {
+     "name": "Beef meatballs, 7",
+     "cal": 490,
+     "pro": 42
+    },
+    {
+     "name": "Arroz blanco, 1 cup",
+     "cal": 205,
+     "pro": 4
+    },
+    {
+     "name": "Premier protein shake",
+     "cal": 160,
+     "pro": 30
+    }
+   ],
+   "training": [
+    {
+     "type": "Cindy",
+     "min": 24,
+     "avgHr": 136,
+     "peakHr": 163,
+     "cal": 126,
+     "source": "Apple Watch",
+     "sets": "10 rounds in 23:50 · 50 pull-ups / 100 push-ups / 150 air squats · 2:23 per round",
+     "note": "78°F / 88% humidity — PR. Previous: 9 rounds in 28:22 (3:09/round)."
+    }
+   ]
+  },
+  "2026-08-28": {
+   "weight": 162.7,
+   "sleep": {
+    "asleep": 306,
+    "inBed": 344,
+    "awake": 38,
+    "rem": 60,
+    "light": 166,
+    "deep": 80
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Desayuno tradicional — omelet, 3 bacon, veg, no bread (La Bahía)",
+     "cal": 665,
+     "pro": 47
+    },
+    {
+     "name": "Avena, 8 oz",
+     "cal": 280,
+     "pro": 11
+    },
+    {
+     "name": "Chicharrones, handful",
+     "cal": 90,
+     "pro": 9
+    },
+    {
+     "name": "Bistec encebollado, 6 oz",
+     "cal": 340,
+     "pro": 48
+    },
+    {
+     "name": "Habichuelas, 5.3 oz",
+     "cal": 145,
+     "pro": 9
+    },
+    {
+     "name": "Arroz, ¾ cup",
+     "cal": 155,
+     "pro": 3
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1
+    },
+    {
+     "name": "Salad, lemon and oil",
+     "cal": 80,
+     "pro": 1
+    }
+   ],
+   "training": [
+    {
+     "type": "Cindy",
+     "min": 25,
+     "avgHr": 145,
+     "peakHr": 196,
+     "cal": 202,
+     "source": "Apple Watch",
+     "sets": "10 rounds in 24:52 · 50 pull-ups / 100 push-ups / 150 air squats · 2:29 per round",
+     "note": "79°F / 86% humidity — effort self-rated 10/10. Highest average HR in the log; peak 196 above the 190 age-predicted max."
+    }
+   ]
+  },
+  "2026-08-29": {
+   "weight": 161.8,
+   "sleep": {
+    "asleep": 400,
+    "inBed": 469,
+    "awake": 69,
+    "rem": 94,
+    "light": 249,
+    "deep": 57
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Grilled chicken sandwich, bacon, provolone, brioche (Moffitt)",
+     "cal": 800,
+     "pro": 55
+    },
+    {
+     "name": "Coke Zero",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "Fajita meat, 8 oz",
+     "cal": 450,
+     "pro": 60
+    },
+    {
+     "name": "Arroz, 1 cup",
+     "cal": 205,
+     "pro": 4
+    },
+    {
+     "name": "Peppers and onions",
+     "cal": 60,
+     "pro": 2
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1
+    }
+   ],
+   "training": [
+    {
+     "type": "Cindy",
+     "min": 27,
+     "avgHr": 136,
+     "peakHr": 176,
+     "cal": 200,
+     "source": "Apple Watch",
+     "sets": "11 rounds in 26:53 · 55 pull-ups / 110 push-ups / 165 air squats · 2:26 per round",
+     "note": "77°F / 90% humidity — effort 9/10. Round-count PR. Third Cindy in three days; 195 pull-ups this week."
+    }
+   ]
+  },
+  "2026-08-30": {
+   "weight": 161.9,
+   "sleep": {
+    "asleep": 340,
+    "inBed": 429,
+    "awake": 89,
+    "rem": 57,
+    "light": 212,
+    "deep": 72
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Diet Coke",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "Grilled chicken sandwich, DOUBLE chicken, bacon, provolone (Moffitt)",
+     "cal": 1000,
+     "pro": 90
+    },
+    {
+     "name": "Bistec encebollado, 5 oz",
+     "cal": 285,
+     "pro": 40
+    },
+    {
+     "name": "Arroz, ¾ cup",
+     "cal": 155,
+     "pro": 3
+    },
+    {
+     "name": "Habichuelas, 1 cup",
+     "cal": 220,
+     "pro": 13
+    },
+    {
+     "name": "Tostones, 4",
+     "cal": 200,
+     "pro": 2
+    }
+   ]
+  },
+  "2026-08-31": {
+   "weight": 162.5,
+   "bodyFat": 23.5,
+   "bodyFatNote": "Navy formula — waist 36⅜″, neck 15⅛″, height 66″. Omron same morning read 13.0% (13.2 / 13.0 / 12.7). The two methods disagree by 10.5 points; waist-to-height of 0.55 supports the higher number. True value likely 19–22%.",
+   "sleep": {
+    "asleep": 454,
+    "inBed": 492,
+    "awake": 38,
+    "rem": 105,
+    "light": 229,
+    "deep": 120
+   },
+   "food": [
+    {
+     "name": "Omelet — 4 eggs, onion, green pepper",
+     "cal": 355,
+     "pro": 25
+    },
+    {
+     "name": "Honey roasted turkey breast, 2 oz",
+     "cal": 70,
+     "pro": 10
+    },
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Survivor acai bowl, no honey/agave (Purple Ocean)",
+     "cal": 700,
+     "pro": 12
+    },
+    {
+     "name": "Strip steak, 10 oz",
+     "cal": 650,
+     "pro": 62
+    },
+    {
+     "name": "Baked mac and cheese, 1 cup (Main St Bistro)",
+     "cal": 290,
+     "pro": 15
+    },
+    {
+     "name": "Caesar salad, 1 cup",
+     "cal": 190,
+     "pro": 4
+    },
+    {
+     "name": "Coke Zero",
+     "cal": 0,
+     "pro": 0
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength A",
+     "min": 50,
+     "avgHr": 126,
+     "peakHr": 168,
+     "cal": 228,
+     "source": "Apple Watch",
+     "sets": "Pull-ups 12/12/12/12 (48) · Bench dips 10×4 (40) · Feet-up push-ups 15×3 · Hands-elevated push-ups 15×3 · Flyes 7/10/9 (push-up handles) · Hollow 30s×3",
+     "note": "87°F / 71% humidity — effort 9/10. Dips were bench dips, not forward-lean bar dips: triceps work, not the lower-pec movement."
+    }
+   ]
+  },
+  "2026-09-01": {
+   "weight": 162.7,
+   "sleep": {
+    "asleep": 529,
+    "inBed": 649,
+    "awake": 120,
+    "rem": 119,
+    "light": 323,
+    "deep": 88
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Premier Protein Ultimate shake, 42g",
+     "cal": 220,
+     "pro": 42
+    },
+    {
+     "name": "Crispy ranch snack wraps, 2 (McDonald's)",
+     "cal": 660,
+     "pro": 28
+    },
+    {
+     "name": "McChicken",
+     "cal": 400,
+     "pro": 14
+    },
+    {
+     "name": "Diet Coke, large",
+     "cal": 0,
+     "pro": 0
+    },
+    {
+     "name": "Carne guisada, 6 oz",
+     "cal": 340,
+     "pro": 45
+    },
+    {
+     "name": "Arroz blanco, ¾ cup",
+     "cal": 155,
+     "pro": 3
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength B",
+     "min": 30,
+     "avgHr": 132,
+     "peakHr": 165,
+     "cal": 160,
+     "source": "Apple Watch",
+     "sets": "3 sets of every movement · rep counts not recorded",
+     "note": "83°F / 80% humidity — effort 8/10. Watch died at 26:14; session ran ~30 min, calories estimated."
+    }
+   ]
+  },
+  "2026-09-02": {
+   "weight": 163.6,
+   "sleep": {
+    "asleep": 281,
+    "inBed": 338,
+    "awake": 57,
+    "rem": 42,
+    "light": 200,
+    "deep": 40
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Desayuno Bahía — omelet w/ ham, tomato, pepper, onion",
+     "cal": 620,
+     "pro": 42
+    },
+    {
+     "name": "Café con leche, small",
+     "cal": 110,
+     "pro": 6
+    },
+    {
+     "name": "Pio Pio sandwich, grilled chicken (La Bahía)",
+     "cal": 600,
+     "pro": 45
+    },
+    {
+     "name": "Premier Protein Ultimate shake, 42g",
+     "cal": 220,
+     "pro": 42
+    }
+   ]
+  },
+  "2026-09-03": {
+   "weight": 162.1,
+   "sleep": {
+    "asleep": 287,
+    "inBed": 318,
+    "awake": 31,
+    "rem": 55,
+    "light": 138,
+    "deep": 95
+   },
+   "food": [
+    {
+     "name": "Omelet — 4 eggs, bacon, ham, onion, pepper",
+     "cal": 700,
+     "pro": 50
+    },
+    {
+     "name": "Oatmeal / avena, 8 oz",
+     "cal": 280,
+     "pro": 11
+    },
+    {
+     "name": "Carne guisada, leftover, 6 oz",
+     "cal": 340,
+     "pro": 45
+    },
+    {
+     "name": "Arroz blanco, 1 cup",
+     "cal": 205,
+     "pro": 4
+    },
+    {
+     "name": "Pork chops, 3 thin",
+     "cal": 420,
+     "pro": 48
+    }
+   ]
+  },
+  "2026-09-04": {
+   "weight": 161.9,
+   "sleep": {
+    "asleep": 304,
+    "inBed": 343,
+    "awake": 39,
+    "rem": 77,
+    "light": 142,
+    "deep": 86
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Desayuno tradicional — omelet, bacon, veg, no bread (La Bahía)",
+     "cal": 665,
+     "pro": 47
+    },
+    {
+     "name": "Avena, 12 oz",
+     "cal": 420,
+     "pro": 17
+    },
+    {
+     "name": "Carne guisada, 6 oz",
+     "cal": 340,
+     "pro": 45
+    },
+    {
+     "name": "Arroz blanco, 1 cup",
+     "cal": 205,
+     "pro": 4
+    },
+    {
+     "name": "Ground beef burrito — peppers, onions, lettuce",
+     "cal": 650,
+     "pro": 35
+    }
+   ],
+   "training": [
+    {
+     "type": "Cindy",
+     "min": 24,
+     "avgHr": 131,
+     "peakHr": 163,
+     "cal": 169,
+     "source": "Apple Watch",
+     "sets": "10 rounds in 24:12 · 50 pull-ups / 100 push-ups / 150 air squats · 2:25 per round",
+     "note": "79°F / 88% humidity — effort 8/10. Lowest average HR of any Cindy at the same pace as Aug 29."
+    }
+   ]
+  },
+  "2026-09-05": {
+   "weight": 161.6,
+   "partial": true,
+   "sleep": {
+    "asleep": 503,
+    "inBed": 594,
+    "awake": 91,
+    "rem": 127,
+    "light": 299,
+    "deep": 78
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10
+    },
+    {
+     "name": "Omelet — 4 eggs, turkey ham, onion, tomato, pepper",
+     "cal": 425,
+     "pro": 35
+    },
+    {
+     "name": "Ground beef burrito, leftover",
+     "cal": 650,
+     "pro": 35
+    }
+   ],
+   "training": [
+    {
+     "type": "Cindy",
+     "min": 30,
+     "avgHr": 141,
+     "peakHr": 171,
+     "cal": 241,
+     "source": "Apple Watch",
+     "sets": "12 rounds in 30:27. 60 pull-ups, 120 push-ups, 180 air squats. 2:32 per round",
+     "note": "89°F, 70% humidity. Effort 7/10. Round-count PR and highest work rate yet at 11.8 reps per minute."
+    }
+   ]
+  }
+ }
+}
