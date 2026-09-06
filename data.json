@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-06",
- "stamp": "Sep 6, 2026, 1:55 PM",
+ "stamp": "Sep 6, 2026, 2:20 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -1705,6 +1705,16 @@
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
      "pro": 10
+    },
+    {
+     "name": "Grilled chicken sandwich, bacon, provolone, brioche (Moffitt)",
+     "cal": 800,
+     "pro": 55
+    },
+    {
+     "name": "Coke Zero",
+     "cal": 0,
+     "pro": 0
     }
    ]
   }
