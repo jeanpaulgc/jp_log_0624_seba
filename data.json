@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-06",
- "stamp": "Sep 6, 2026, 11:30 AM",
+ "stamp": "Sep 6, 2026, 12:05 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -784,6 +784,8 @@
    "training": [
     {
      "type": "Circuit — Cindy",
+     "rounds": 9,
+     "secs": 1702,
      "min": 28,
      "avgHr": 139,
      "peakHr": 170,
@@ -884,6 +886,26 @@
    "training": [
     {
      "type": "Strength A",
+     "lifts": [
+      {
+       "name": "Pull-ups",
+       "reps": [
+        10,
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Dips, forward lean",
+       "reps": [
+        6,
+        6,
+        6,
+        6
+       ]
+      }
+     ],
      "min": 40,
      "avgHr": 130,
      "peakHr": 172,
@@ -960,6 +982,16 @@
    "training": [
     {
      "type": "Strength B",
+     "lifts": [
+      {
+       "name": "Bent-over DB rows, 2×40 lb",
+       "reps": [
+        12,
+        10,
+        12
+       ]
+      }
+     ],
      "min": 59,
      "avgHr": 125,
      "peakHr": 161,
@@ -1053,6 +1085,8 @@
    "training": [
     {
      "type": "Cindy",
+     "rounds": 10,
+     "secs": 1430,
      "min": 24,
      "avgHr": 136,
      "peakHr": 163,
@@ -1123,6 +1157,8 @@
    "training": [
     {
      "type": "Cindy",
+     "rounds": 10,
+     "secs": 1492,
      "min": 25,
      "avgHr": 145,
      "peakHr": 196,
@@ -1183,6 +1219,8 @@
    "training": [
     {
      "type": "Cindy",
+     "rounds": 11,
+     "secs": 1613,
      "min": 27,
      "avgHr": 136,
      "peakHr": 176,
@@ -1244,6 +1282,9 @@
   "2026-08-31": {
    "weight": 162.5,
    "bodyFat": 23.5,
+   "waist": 36.375,
+   "neck": 15.125,
+   "bia": 13,
    "bodyFatNote": "Navy formula — waist 36⅜″, neck 15⅛″, height 66″. Omron same morning read 13.0% (13.2 / 13.0 / 12.7). The two methods disagree by 10.5 points; waist-to-height of 0.55 supports the higher number. True value likely 19–22%.",
    "sleep": {
     "asleep": 454,
@@ -1298,6 +1339,58 @@
    "training": [
     {
      "type": "Strength A",
+     "lifts": [
+      {
+       "name": "Pull-ups",
+       "reps": [
+        12,
+        12,
+        12,
+        12
+       ]
+      },
+      {
+       "name": "Bench dips",
+       "reps": [
+        10,
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Push-ups, feet elevated",
+       "reps": [
+        15,
+        15,
+        15
+       ]
+      },
+      {
+       "name": "Push-ups, hands elevated",
+       "reps": [
+        15,
+        15,
+        15
+       ]
+      },
+      {
+       "name": "Flyes",
+       "reps": [
+        7,
+        10,
+        9
+       ]
+      },
+      {
+       "name": "Hollow hold, sec",
+       "reps": [
+        30,
+        30,
+        30
+       ]
+      }
+     ],
      "min": 50,
      "avgHr": 126,
      "peakHr": 168,
@@ -1363,6 +1456,22 @@
    "training": [
     {
      "type": "Strength B",
+     "lifts": [
+      {
+       "name": "Squats, 3s eccentric",
+       "reps": [
+        15,
+        15,
+        15
+       ]
+      },
+      {
+       "name": "Bent-over DB rows, 2×40 lb",
+       "reps": [
+        12
+       ]
+      }
+     ],
      "min": 30,
      "avgHr": 132,
      "peakHr": 165,
@@ -1494,6 +1603,8 @@
    "training": [
     {
      "type": "Cindy",
+     "rounds": 10,
+     "secs": 1452,
      "min": 24,
      "avgHr": 131,
      "peakHr": 163,
@@ -1554,6 +1665,8 @@
    "training": [
     {
      "type": "Cindy",
+     "rounds": 12,
+     "secs": 1827,
      "min": 30,
      "avgHr": 141,
      "peakHr": 171,
