@@ -1,6 +1,6 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-05",
+ "updated": "2026-09-06",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -1505,7 +1505,6 @@
   },
   "2026-09-05": {
    "weight": 161.6,
-   "partial": true,
    "sleep": {
     "asleep": 503,
     "inBed": 594,
@@ -1529,6 +1528,26 @@
      "name": "Ground beef burrito, leftover",
      "cal": 650,
      "pro": 35
+    },
+    {
+     "name": "Spaghetti, white sauce, some chicken",
+     "cal": 950,
+     "pro": 35
+    },
+    {
+     "name": "Salad — croutons, bacon, Italian dressing",
+     "cal": 350,
+     "pro": 10
+    },
+    {
+     "name": "Red wine, 3 cups",
+     "cal": 600,
+     "pro": 0
+    },
+    {
+     "name": "Macallan, 2 shots",
+     "cal": 210,
+     "pro": 0
     }
    ],
    "training": [
