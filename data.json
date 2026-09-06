@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-06",
- "stamp": "Sep 6, 2026, 12:55 PM",
+ "stamp": "Sep 6, 2026, 1:25 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -304,7 +304,8 @@
     {
      "name": "Premier protein shake",
      "cal": 160,
-     "pro": 30
+     "pro": 30,
+     "sodium": 210
     },
     {
      "name": "Chicharrones, ~8 pieces",
@@ -403,7 +404,8 @@
     {
      "name": "Premier protein shake",
      "cal": 160,
-     "pro": 30
+     "pro": 30,
+     "sodium": 210
     },
     {
      "name": "Filet mignon, 8.6 oz total",
@@ -456,7 +458,8 @@
     {
      "name": "Premier protein shake",
      "cal": 160,
-     "pro": 30
+     "pro": 30,
+     "sodium": 210
     },
     {
      "name": "Lettuce and tomato salad",
@@ -643,7 +646,8 @@
     {
      "name": "Premier protein shake",
      "cal": 160,
-     "pro": 30
+     "pro": 30,
+     "sodium": 210
     }
    ]
   },
@@ -941,7 +945,8 @@
     {
      "name": "Honey roasted turkey breast, 2 oz",
      "cal": 70,
-     "pro": 10
+     "pro": 10,
+     "sodium": 590
     },
     {
      "name": "Café con leche — ¾ cup whole milk, Splenda",
@@ -951,7 +956,8 @@
     {
      "name": "Premier protein shake",
      "cal": 160,
-     "pro": 30
+     "pro": 30,
+     "sodium": 210
     },
     {
      "name": "Chicken croquetas, 3",
@@ -1079,7 +1085,8 @@
     {
      "name": "Premier protein shake",
      "cal": 160,
-     "pro": 30
+     "pro": 30,
+     "sodium": 210
     }
    ],
    "training": [
@@ -1303,7 +1310,8 @@
     {
      "name": "Honey roasted turkey breast, 2 oz",
      "cal": 70,
-     "pro": 10
+     "pro": 10,
+     "sodium": 590
     },
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
@@ -1323,12 +1331,14 @@
     {
      "name": "Baked mac and cheese, 1 cup (Main St Bistro)",
      "cal": 290,
-     "pro": 15
+     "pro": 15,
+     "sodium": 960
     },
     {
      "name": "Caesar salad, 1 cup",
      "cal": 190,
-     "pro": 4
+     "pro": 4,
+     "sodium": 340
     },
     {
      "name": "Coke Zero",
@@ -1420,7 +1430,8 @@
     {
      "name": "Premier Protein Ultimate shake, 42g",
      "cal": 220,
-     "pro": 42
+     "pro": 42,
+     "sodium": 320
     },
     {
      "name": "Crispy ranch snack wraps, 2 (McDonald's)",
@@ -1516,7 +1527,8 @@
     {
      "name": "Premier Protein Ultimate shake, 42g",
      "cal": 220,
-     "pro": 42
+     "pro": 42,
+     "sodium": 320
     }
    ]
   },
