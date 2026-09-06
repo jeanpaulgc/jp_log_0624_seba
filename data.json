@@ -1562,6 +1562,18 @@
      "note": "89°F, 70% humidity. Effort 7/10. Round-count PR and highest work rate yet at 11.8 reps per minute."
     }
    ]
+  },
+  "2026-09-06": {
+   "weight": 159.9,
+   "partial": true,
+   "sleep": {
+    "asleep": 224,
+    "inBed": 255,
+    "awake": 31,
+    "rem": 25,
+    "light": 156,
+    "deep": 43
+   }
   }
  }
 }
