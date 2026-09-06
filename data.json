@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-06",
- "stamp": "Sep 6, 2026, 2:20 PM",
+ "stamp": "Sep 6, 2026, 2:45 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -77,12 +77,16 @@
     {
      "name": "Grilled chicken sandwich",
      "cal": 450,
-     "pro": 34
+     "pro": 34,
+     "sodium": 1600,
+     "sodEst": true
     },
     {
      "name": "Arroz + chicken drumsticks",
      "cal": 525,
-     "pro": 30
+     "pro": 30,
+     "sodium": 350,
+     "sodEst": true
     }
    ],
    "training": [
@@ -114,22 +118,30 @@
     {
      "name": "Grilled chicken sandwich w/ bacon",
      "cal": 600,
-     "pro": 50
+     "pro": 50,
+     "sodium": 1600,
+     "sodEst": true
     },
     {
      "name": "Wings air fried, 9 whole",
      "cal": 950,
-     "pro": 85
+     "pro": 85,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Arroz blanco, 1 cup",
      "cal": 205,
-     "pro": 4
+     "pro": 4,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, 1 cup",
      "cal": 220,
-     "pro": 13
+     "pro": 13,
+     "sodium": 500,
+     "sodEst": true
     }
    ],
    "training": [
@@ -168,22 +180,30 @@
     {
      "name": "Wings air fried, 6 pc",
      "cal": 330,
-     "pro": 28
+     "pro": 28,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Arroz, ½ cup",
      "cal": 105,
-     "pro": 2
+     "pro": 2,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, ½ cup",
      "cal": 110,
-     "pro": 7
+     "pro": 7,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Pork chop, large",
      "cal": 480,
-     "pro": 58
+     "pro": 58,
+     "sodium": 420,
+     "sodEst": true
     }
    ],
    "training": [
@@ -225,7 +245,9 @@
     {
      "name": "Scrambled eggs, 3, w/ cheese",
      "cal": 380,
-     "pro": 27
+     "pro": 27,
+     "sodium": 300,
+     "sodEst": true
     },
     {
      "name": "Sangria, 2 (Capa)",
@@ -274,32 +296,44 @@
     {
      "name": "Arroz, ½ cup",
      "cal": 105,
-     "pro": 2
+     "pro": 2,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, ½ cup",
      "cal": 110,
-     "pro": 7
+     "pro": 7,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Pork chop, large",
      "cal": 480,
-     "pro": 58
+     "pro": 58,
+     "sodium": 420,
+     "sodEst": true
     },
     {
      "name": "Coke Zero",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "Celsius packet",
      "cal": 10,
-     "pro": 0
+     "pro": 0,
+     "sodium": 0,
+     "sodEst": true
     },
     {
      "name": "Pork chop, large",
      "cal": 480,
-     "pro": 58
+     "pro": 58,
+     "sodium": 420,
+     "sodEst": true
     },
     {
      "name": "Premier protein shake",
@@ -310,7 +344,9 @@
     {
      "name": "Chicharrones, ~8 pieces",
      "cal": 50,
-     "pro": 5
+     "pro": 5,
+     "sodium": 250,
+     "sodEst": true
     }
    ],
    "training": [
@@ -342,7 +378,9 @@
     {
      "name": "Avena, 8 oz (La Bahía)",
      "cal": 280,
-     "pro": 11
+     "pro": 11,
+     "sodium": 150,
+     "sodEst": true
     },
     {
      "name": "Omelet — ham, Swiss, peppers, onion, tomato",
@@ -352,12 +390,16 @@
     {
      "name": "Toast (pan sobao, buttered)",
      "cal": 220,
-     "pro": 5
+     "pro": 5,
+     "sodium": 400,
+     "sodEst": true
     },
     {
      "name": "Cava bowl — chicken, feta + tzatziki, no dressing",
      "cal": 610,
-     "pro": 38
+     "pro": 38,
+     "sodium": 900,
+     "sodEst": true
     },
     {
      "name": "Premier protein shakes, 2",
@@ -394,12 +436,16 @@
     {
      "name": "TropiChop — double grilled chicken, beans, no sauce",
      "cal": 520,
-     "pro": 55
+     "pro": 55,
+     "sodium": 1200,
+     "sodEst": true
     },
     {
      "name": "Coke Zero",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "Premier protein shake",
@@ -415,7 +461,9 @@
     {
      "name": "Mashed potatoes, Idahoan pouch",
      "cal": 440,
-     "pro": 8
+     "pro": 8,
+     "sodium": 450,
+     "sodEst": true
     }
    ]
   },
@@ -438,7 +486,9 @@
     {
      "name": "Diet Coke",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "Breaded stuffed chicken breast, 2 pc",
@@ -448,12 +498,16 @@
     {
      "name": "Arroz, ½ cup",
      "cal": 105,
-     "pro": 2
+     "pro": 2,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, 1 cup",
      "cal": 220,
-     "pro": 13
+     "pro": 13,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Premier protein shake",
@@ -493,12 +547,16 @@
     {
      "name": "Grilled chicken sandwich, bacon + pepper jack (Moffitt)",
      "cal": 780,
-     "pro": 52
+     "pro": 52,
+     "sodium": 1600,
+     "sodEst": true
     },
     {
      "name": "Coke Zero Cherry",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "8 oz sirloin (Texas Roadhouse)",
@@ -536,27 +594,37 @@
     {
      "name": "Wings air fried, 7 whole (14 pc)",
      "cal": 740,
-     "pro": 66
+     "pro": 66,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Arroz, ½ cup",
      "cal": 105,
-     "pro": 2
+     "pro": 2,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, 1 cup",
      "cal": 220,
-     "pro": 13
+     "pro": 13,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Banana",
      "cal": 105,
-     "pro": 1
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     },
     {
      "name": "Coke Zero, 2",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     }
    ],
    "training": [
@@ -636,12 +704,16 @@
     {
      "name": "TropiChop — double chicken, rice, black beans, veg",
      "cal": 700,
-     "pro": 60
+     "pro": 60,
+     "sodium": 1200,
+     "sodEst": true
     },
     {
      "name": "Wings air fried, 6 whole (12 pc)",
      "cal": 630,
-     "pro": 57
+     "pro": 57,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Premier protein shake",
@@ -670,7 +742,9 @@
     {
      "name": "Penne pesto with steak",
      "cal": 800,
-     "pro": 45
+     "pro": 45,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Premier protein shakes, 2",
@@ -693,7 +767,9 @@
     {
      "name": "Avena, 8 oz (La Bahía)",
      "cal": 280,
-     "pro": 11
+     "pro": 11,
+     "sodium": 150,
+     "sodEst": true
     },
     {
      "name": "Omelet — peppers, onions, cheese",
@@ -703,32 +779,44 @@
     {
      "name": "Pan sobao, 3 small pieces",
      "cal": 300,
-     "pro": 7
+     "pro": 7,
+     "sodium": 400,
+     "sodEst": true
     },
     {
      "name": "Manzano bananas, 2",
      "cal": 160,
-     "pro": 2
+     "pro": 2,
+     "sodium": 1,
+     "sodEst": true
     },
     {
      "name": "Beef + plátano empanada (Box of Cubans)",
      "cal": 320,
-     "pro": 12
+     "pro": 12,
+     "sodium": 400,
+     "sodEst": true
     },
     {
      "name": "Chicken parm, 2 thin breasts, pan seared",
      "cal": 520,
-     "pro": 60
+     "pro": 60,
+     "sodium": 1300,
+     "sodEst": true
     },
     {
      "name": "Arroz, small portion",
      "cal": 100,
-     "pro": 2
+     "pro": 2,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Banana",
      "cal": 105,
-     "pro": 1
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     }
    ],
    "training": [
@@ -757,32 +845,44 @@
     {
      "name": "Grilled chicken sandwich, bacon, brioche (Moffitt)",
      "cal": 780,
-     "pro": 52
+     "pro": 52,
+     "sodium": 1600,
+     "sodEst": true
     },
     {
      "name": "Coke Zero",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "Pollo guisado, 8 oz",
      "cal": 430,
-     "pro": 60
+     "pro": 60,
+     "sodium": 700,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, 1 cup",
      "cal": 220,
-     "pro": 13
+     "pro": 13,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Arroz, ¾ cup",
      "cal": 155,
-     "pro": 3
+     "pro": 3,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Banana",
      "cal": 105,
-     "pro": 1
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     }
    ],
    "training": [
@@ -819,12 +919,16 @@
     {
      "name": "Grilled chicken sandwich, bacon, brioche (Moffitt)",
      "cal": 780,
-     "pro": 52
+     "pro": 52,
+     "sodium": 1600,
+     "sodEst": true
     },
     {
      "name": "Coke Zero",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "Lasagna, light on the beef",
@@ -854,17 +958,23 @@
     {
      "name": "Scrambled eggs, 173g",
      "cal": 280,
-     "pro": 19
+     "pro": 19,
+     "sodium": 320,
+     "sodEst": true
     },
     {
      "name": "Café con leche — 1¼ cup whole milk, Splenda",
      "cal": 190,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Cuban sandwich (La Criolla)",
      "cal": 750,
-     "pro": 45
+     "pro": 45,
+     "sodium": 1800,
+     "sodEst": true
     },
     {
      "name": "Quarter chicken, white meat (Pollo Tropical)",
@@ -874,17 +984,23 @@
     {
      "name": "Habichuelas negras",
      "cal": 220,
-     "pro": 9
+     "pro": 9,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Arroz blanco",
      "cal": 190,
-     "pro": 3
+     "pro": 3,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Banana",
      "cal": 105,
-     "pro": 1
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     }
    ],
    "training": [
@@ -935,12 +1051,16 @@
     {
      "name": "Café con leche — 1¼ cup whole milk, Splenda",
      "cal": 190,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Eggs, 3, with tomato and green pepper",
      "cal": 230,
-     "pro": 19
+     "pro": 19,
+     "sodium": 300,
+     "sodEst": true
     },
     {
      "name": "Honey roasted turkey breast, 2 oz",
@@ -962,27 +1082,37 @@
     {
      "name": "Chicken croquetas, 3",
      "cal": 270,
-     "pro": 12
+     "pro": 12,
+     "sodium": 600,
+     "sodEst": true
     },
     {
      "name": "Ribeye, 4.35 oz, with homemade butter",
      "cal": 430,
-     "pro": 35
+     "pro": 35,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Arroz, 1 cup",
      "cal": 205,
-     "pro": 4
+     "pro": 4,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, 1 cup",
      "cal": 220,
-     "pro": 13
+     "pro": 13,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Banana",
      "cal": 105,
-     "pro": 1
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     }
    ],
    "training": [
@@ -1022,27 +1152,37 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Tortilla del oeste + extra egg (La Bahía)",
      "cal": 560,
-     "pro": 38
+     "pro": 38,
+     "sodium": 900,
+     "sodEst": true
     },
     {
      "name": "Avena, 8 oz",
      "cal": 280,
-     "pro": 11
+     "pro": 11,
+     "sodium": 150,
+     "sodEst": true
     },
     {
      "name": "Pan sobao, 3 small pieces",
      "cal": 300,
-     "pro": 7
+     "pro": 7,
+     "sodium": 400,
+     "sodEst": true
     },
     {
      "name": "Chicken shawarma plate w/ rice + yogurt sauce (Darna)",
      "cal": 850,
-     "pro": 65
+     "pro": 65,
+     "sodium": 1500,
+     "sodEst": true
     }
    ]
   },
@@ -1060,27 +1200,37 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Avena, 8 oz",
      "cal": 280,
-     "pro": 11
+     "pro": 11,
+     "sodium": 150,
+     "sodEst": true
     },
     {
      "name": "Desayuno tradicional — omelet, 3 bacon, veg, no bread (La Bahía)",
      "cal": 665,
-     "pro": 47
+     "pro": 47,
+     "sodium": 1100,
+     "sodEst": true
     },
     {
      "name": "Beef meatballs, 7",
      "cal": 490,
-     "pro": 42
+     "pro": 42,
+     "sodium": 700,
+     "sodEst": true
     },
     {
      "name": "Arroz blanco, 1 cup",
      "cal": 205,
-     "pro": 4
+     "pro": 4,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Premier protein shake",
@@ -1118,47 +1268,65 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Desayuno tradicional — omelet, 3 bacon, veg, no bread (La Bahía)",
      "cal": 665,
-     "pro": 47
+     "pro": 47,
+     "sodium": 1100,
+     "sodEst": true
     },
     {
      "name": "Avena, 8 oz",
      "cal": 280,
-     "pro": 11
+     "pro": 11,
+     "sodium": 150,
+     "sodEst": true
     },
     {
      "name": "Chicharrones, handful",
      "cal": 90,
-     "pro": 9
+     "pro": 9,
+     "sodium": 250,
+     "sodEst": true
     },
     {
      "name": "Bistec encebollado, 6 oz",
      "cal": 340,
-     "pro": 48
+     "pro": 48,
+     "sodium": 650,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, 5.3 oz",
      "cal": 145,
-     "pro": 9
+     "pro": 9,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Arroz, ¾ cup",
      "cal": 155,
-     "pro": 3
+     "pro": 3,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Banana",
      "cal": 105,
-     "pro": 1
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     },
     {
      "name": "Salad, lemon and oil",
      "cal": 80,
-     "pro": 1
+     "pro": 1,
+     "sodium": 30,
+     "sodEst": true
     }
    ],
    "training": [
@@ -1190,37 +1358,51 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Grilled chicken sandwich, bacon, provolone, brioche (Moffitt)",
      "cal": 800,
-     "pro": 55
+     "pro": 55,
+     "sodium": 1600,
+     "sodEst": true
     },
     {
      "name": "Coke Zero",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "Fajita meat, 8 oz",
      "cal": 450,
-     "pro": 60
+     "pro": 60,
+     "sodium": 900,
+     "sodEst": true
     },
     {
      "name": "Arroz, 1 cup",
      "cal": 205,
-     "pro": 4
+     "pro": 4,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Peppers and onions",
      "cal": 60,
-     "pro": 2
+     "pro": 2,
+     "sodium": 5,
+     "sodEst": true
     },
     {
      "name": "Banana",
      "cal": 105,
-     "pro": 1
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     }
    ],
    "training": [
@@ -1252,37 +1434,51 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Diet Coke",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "Grilled chicken sandwich, DOUBLE chicken, bacon, provolone (Moffitt)",
      "cal": 1000,
-     "pro": 90
+     "pro": 90,
+     "sodium": 1900,
+     "sodEst": true
     },
     {
      "name": "Bistec encebollado, 5 oz",
      "cal": 285,
-     "pro": 40
+     "pro": 40,
+     "sodium": 650,
+     "sodEst": true
     },
     {
      "name": "Arroz, ¾ cup",
      "cal": 155,
-     "pro": 3
+     "pro": 3,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Habichuelas, 1 cup",
      "cal": 220,
-     "pro": 13
+     "pro": 13,
+     "sodium": 500,
+     "sodEst": true
     },
     {
      "name": "Tostones, 4",
      "cal": 200,
-     "pro": 2
+     "pro": 2,
+     "sodium": 200,
+     "sodEst": true
     }
    ]
   },
@@ -1305,7 +1501,9 @@
     {
      "name": "Omelet — 4 eggs, onion, green pepper",
      "cal": 355,
-     "pro": 25
+     "pro": 25,
+     "sodium": 380,
+     "sodEst": true
     },
     {
      "name": "Honey roasted turkey breast, 2 oz",
@@ -1316,17 +1514,23 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Survivor acai bowl, no honey/agave (Purple Ocean)",
      "cal": 700,
-     "pro": 12
+     "pro": 12,
+     "sodium": 100,
+     "sodEst": true
     },
     {
      "name": "Strip steak, 10 oz",
      "cal": 650,
-     "pro": 62
+     "pro": 62,
+     "sodium": 520,
+     "sodEst": true
     },
     {
      "name": "Baked mac and cheese, 1 cup (Main St Bistro)",
@@ -1343,7 +1547,9 @@
     {
      "name": "Coke Zero",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     }
    ],
    "training": [
@@ -1425,7 +1631,9 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Premier Protein Ultimate shake, 42g",
@@ -1436,32 +1644,44 @@
     {
      "name": "Crispy ranch snack wraps, 2 (McDonald's)",
      "cal": 660,
-     "pro": 28
+     "pro": 28,
+     "sodium": 720,
+     "sodEst": true
     },
     {
      "name": "McChicken",
      "cal": 400,
-     "pro": 14
+     "pro": 14,
+     "sodium": 560,
+     "sodEst": true
     },
     {
      "name": "Diet Coke, large",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     },
     {
      "name": "Carne guisada, 6 oz",
      "cal": 340,
-     "pro": 45
+     "pro": 45,
+     "sodium": 700,
+     "sodEst": true
     },
     {
      "name": "Arroz blanco, ¾ cup",
      "cal": 155,
-     "pro": 3
+     "pro": 3,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Banana",
      "cal": 105,
-     "pro": 1
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     }
    ],
    "training": [
@@ -1507,7 +1727,9 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Desayuno Bahía — omelet w/ ham, tomato, pepper, onion",
@@ -1517,12 +1739,16 @@
     {
      "name": "Café con leche, small",
      "cal": 110,
-     "pro": 6
+     "pro": 6,
+     "sodium": 90,
+     "sodEst": true
     },
     {
      "name": "Pio Pio sandwich, grilled chicken (La Bahía)",
      "cal": 600,
-     "pro": 45
+     "pro": 45,
+     "sodium": 1100,
+     "sodEst": true
     },
     {
      "name": "Premier Protein Ultimate shake, 42g",
@@ -1546,27 +1772,37 @@
     {
      "name": "Omelet — 4 eggs, bacon, ham, onion, pepper",
      "cal": 700,
-     "pro": 50
+     "pro": 50,
+     "sodium": 380,
+     "sodEst": true
     },
     {
      "name": "Oatmeal / avena, 8 oz",
      "cal": 280,
-     "pro": 11
+     "pro": 11,
+     "sodium": 150,
+     "sodEst": true
     },
     {
      "name": "Carne guisada, leftover, 6 oz",
      "cal": 340,
-     "pro": 45
+     "pro": 45,
+     "sodium": 700,
+     "sodEst": true
     },
     {
      "name": "Arroz blanco, 1 cup",
      "cal": 205,
-     "pro": 4
+     "pro": 4,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Pork chops, 3 thin",
      "cal": 420,
-     "pro": 48
+     "pro": 48,
+     "sodium": 420,
+     "sodEst": true
     }
    ]
   },
@@ -1584,32 +1820,44 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Desayuno tradicional — omelet, bacon, veg, no bread (La Bahía)",
      "cal": 665,
-     "pro": 47
+     "pro": 47,
+     "sodium": 1100,
+     "sodEst": true
     },
     {
      "name": "Avena, 12 oz",
      "cal": 420,
-     "pro": 17
+     "pro": 17,
+     "sodium": 220,
+     "sodEst": true
     },
     {
      "name": "Carne guisada, 6 oz",
      "cal": 340,
-     "pro": 45
+     "pro": 45,
+     "sodium": 700,
+     "sodEst": true
     },
     {
      "name": "Arroz blanco, 1 cup",
      "cal": 205,
-     "pro": 4
+     "pro": 4,
+     "sodium": 350,
+     "sodEst": true
     },
     {
      "name": "Ground beef burrito — peppers, onions, lettuce",
      "cal": 650,
-     "pro": 35
+     "pro": 35,
+     "sodium": 900,
+     "sodEst": true
     }
    ],
    "training": [
@@ -1641,37 +1889,51 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Omelet — 4 eggs, turkey ham, onion, tomato, pepper",
      "cal": 425,
-     "pro": 35
+     "pro": 35,
+     "sodium": 380,
+     "sodEst": true
     },
     {
      "name": "Ground beef burrito, leftover",
      "cal": 650,
-     "pro": 35
+     "pro": 35,
+     "sodium": 900,
+     "sodEst": true
     },
     {
      "name": "Spaghetti, white sauce, some chicken",
      "cal": 950,
-     "pro": 35
+     "pro": 35,
+     "sodium": 1200,
+     "sodEst": true
     },
     {
      "name": "Salad — croutons, bacon, Italian dressing",
      "cal": 350,
-     "pro": 10
+     "pro": 10,
+     "sodium": 700,
+     "sodEst": true
     },
     {
      "name": "Red wine, 3 cups",
      "cal": 600,
-     "pro": 0
+     "pro": 0,
+     "sodium": 15,
+     "sodEst": true
     },
     {
      "name": "Macallan, 2 shots",
      "cal": 210,
-     "pro": 0
+     "pro": 0,
+     "sodium": 0,
+     "sodEst": true
     }
    ],
    "training": [
@@ -1704,17 +1966,23 @@
     {
      "name": "Café con leche — 1¼ cup 2% milk, Splenda",
      "cal": 150,
-     "pro": 10
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     },
     {
      "name": "Grilled chicken sandwich, bacon, provolone, brioche (Moffitt)",
      "cal": 800,
-     "pro": 55
+     "pro": 55,
+     "sodium": 1600,
+     "sodEst": true
     },
     {
      "name": "Coke Zero",
      "cal": 0,
-     "pro": 0
+     "pro": 0,
+     "sodium": 40,
+     "sodEst": true
     }
    ]
   }
