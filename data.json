@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-07",
- "stamp": "Sep 7, 2026, 10:00 AM",
+ "stamp": "Sep 7, 2026, 10:20 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2025,7 +2025,9 @@
    "weight": 160.9,
    "waist": 35,
    "bia": 14,
-   "bodyFatNote": "Waist 35″, down 1.375 in a week. Handheld averaged 14.0% (13.8 / 14.1 / 14.0), up a point — it moved the wrong way while the waist clearly improved. Neck not logged: last week's 15⅛″ and this week's 13¼″ cannot both be right, so the Navy estimate is on hold until it is re-measured.",
+   "neck": 14.5,
+   "bodyFat": 22.1,
+   "bodyFatNote": "Waist 35″ (down 1.375 in a week), neck 14½″ on a re-measure. Navy 22.1%, down 1.4 points from Aug 31. Handheld read 14.0% (13.8 / 14.1 / 14.0) — up a point on a week the waist clearly fell, so it is not tracking the thing that changed.",
    "partial": true,
    "sleep": {
     "asleep": 466,
