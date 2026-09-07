@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-07",
- "stamp": "Sep 7, 2026, 12:32 PM",
+ "stamp": "Sep 7, 2026, 1:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2023,6 +2023,7 @@
   },
   "2026-09-07": {
    "weight": 160.9,
+   "water": 20,
    "waist": 35,
    "bia": 14,
    "neck": 14.5,
@@ -2043,6 +2044,13 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Pancakes, 3 small, light syrup",
+     "cal": 420,
+     "pro": 8,
+     "sodium": 620,
      "sodEst": true
     }
    ],
