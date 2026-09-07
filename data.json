@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-07",
- "stamp": "Sep 6, 2026, 7:15 PM",
+ "stamp": "Sep 7, 2026, 9:35 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2020,6 +2020,18 @@
      "sodEst": true
     }
    ]
+  },
+  "2026-09-07": {
+   "weight": 160.9,
+   "partial": true,
+   "sleep": {
+    "asleep": 466,
+    "inBed": 534,
+    "awake": 68,
+    "rem": 116,
+    "light": 270,
+    "deep": 81
+   }
   }
  }
 }
