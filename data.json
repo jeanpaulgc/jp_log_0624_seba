@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-07",
- "stamp": "Sep 7, 2026, 1:00 PM",
+ "stamp": "Sep 7, 2026, 1:15 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2052,6 +2052,12 @@
      "pro": 8,
      "sodium": 620,
      "sodEst": true
+    },
+    {
+     "name": "Premier Protein Ultimate shake, 42g",
+     "cal": 220,
+     "pro": 42,
+     "sodium": 320
     }
    ],
    "training": [
