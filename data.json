@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-07",
- "stamp": "Sep 7, 2026, 10:35 AM",
+ "stamp": "Sep 7, 2026, 12:32 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2044,6 +2044,67 @@
      "pro": 10,
      "sodium": 130,
      "sodEst": true
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength A",
+     "min": 50,
+     "avgHr": 133,
+     "peakHr": 174,
+     "cal": 267,
+     "source": "Apple Watch",
+     "lifts": [
+      {
+       "name": "Pull-ups",
+       "reps": [
+        15,
+        11,
+        12,
+        11
+       ]
+      },
+      {
+       "name": "Push-ups, feet elevated",
+       "reps": [
+        20,
+        21,
+        20
+       ]
+      },
+      {
+       "name": "Push-ups, hands elevated",
+       "reps": [
+        15,
+        17,
+        15
+       ]
+      },
+      {
+       "name": "Slider flyes",
+       "reps": [
+        10,
+        10,
+        7
+       ]
+      },
+      {
+       "name": "Hollow hold, sec",
+       "reps": [
+        30,
+        30,
+        40
+       ]
+      },
+      {
+       "name": "Push-ups on handles, to failure",
+       "reps": [
+        17
+       ]
+      }
+     ],
+     "sets": "Pull-ups 15/11/12/11 — first set to true failure. 125 push-ups total across three variations. Dips skipped, no equipment.",
+     "note": "77°F, 89% humidity. Effort 10/10. Pull-up ceiling established at 15; the drop to 11 is what real fatigue looks like."
     }
    ]
   }
