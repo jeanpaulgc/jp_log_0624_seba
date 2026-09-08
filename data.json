@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-08",
- "stamp": "Sep 8, 2026, 2:18 PM",
+ "stamp": "Sep 8, 2026, 7:40 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2165,6 +2165,69 @@
      "pro": 32,
      "sodium": 750,
      "sodEst": true
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength B",
+     "min": 81,
+     "avgHr": 122,
+     "peakHr": 163,
+     "cal": 350,
+     "source": "Apple Watch",
+     "lifts": [
+      {
+       "name": "Squats, 3s eccentric",
+       "reps": [
+        15,
+        15,
+        15,
+        20
+       ]
+      },
+      {
+       "name": "Bulgarian split squat",
+       "reps": [
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Reverse lunges",
+       "reps": [
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Single-leg glute bridge",
+       "reps": [
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Rows",
+       "reps": [
+        15,
+        17,
+        17
+       ]
+      },
+      {
+       "name": "Side plank, sec",
+       "reps": [
+        30,
+        40,
+        30
+       ]
+      }
+     ],
+     "sets": "Squats 15/15/15/20 — 20 on the last set means the load is light. Rows 15/17/17, well past the 10–12 prescribed.",
+     "note": "82°F, 82% humidity. Effort 9/10. Longest session in the log at 81 minutes. Three movements came back at exactly 10/10/10 — prescriptions, not limits."
     }
    ]
   }
