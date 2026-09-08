@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-08",
- "stamp": "Sep 7, 2026, 7:30 PM",
+ "stamp": "Sep 7, 2026, 7:40 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2066,10 +2066,10 @@
      "sodEst": true
     },
     {
-     "name": "Salmon poke bowl (SushiSize)",
-     "cal": 700,
+     "name": "Salmon poke bowl, heavy sweet soy (SushiSize)",
+     "cal": 900,
      "pro": 38,
-     "sodium": 1400,
+     "sodium": 2400,
      "sodEst": true
     }
    ],
