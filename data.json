@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-08",
- "stamp": "Sep 7, 2026, 9:30 PM",
+ "stamp": "Sep 8, 2026, 9:15 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2134,6 +2134,18 @@
      "note": "77°F, 89% humidity. Effort 10/10. Pull-up ceiling established at 15; the drop to 11 is what real fatigue looks like."
     }
    ]
+  },
+  "2026-09-08": {
+   "weight": 162,
+   "partial": true,
+   "sleep": {
+    "asleep": 496,
+    "inBed": 560,
+    "awake": 64,
+    "rem": 101,
+    "light": 323,
+    "deep": 73
+   }
   }
  }
 }
