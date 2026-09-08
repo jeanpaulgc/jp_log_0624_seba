@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-07",
- "stamp": "Sep 7, 2026, 4:30 PM",
+ "updated": "2026-09-08",
+ "stamp": "Sep 7, 2026, 7:30 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2029,7 +2029,6 @@
    "neck": 14.5,
    "bodyFat": 22.1,
    "bodyFatNote": "Waist 35″ (down 1.375 in a week), neck 14½″ on a re-measure. Navy 22.1%, down 1.4 points from Aug 31. Handheld read 14.0% (13.8 / 14.1 / 14.0) — up a point on a week the waist clearly fell, so it is not tracking the thing that changed.",
-   "partial": true,
    "sleep": {
     "asleep": 466,
     "inBed": 534,
@@ -2064,6 +2063,13 @@
      "cal": 1150,
      "pro": 71,
      "sodium": 2900,
+     "sodEst": true
+    },
+    {
+     "name": "Salmon poke bowl (SushiSize)",
+     "cal": 700,
+     "pro": 38,
+     "sodium": 1400,
      "sodEst": true
     }
    ],
