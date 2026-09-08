@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-08",
- "stamp": "Sep 8, 2026, 9:50 AM",
+ "stamp": "Sep 8, 2026, 1:30 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2157,6 +2157,13 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Street tacos — 2 al pastor, 3 carnitas, 2 unspecified",
+     "cal": 1130,
+     "pro": 74,
+     "sodium": 1750,
      "sodEst": true
     }
    ]
