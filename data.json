@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-08",
- "stamp": "Sep 8, 2026, 9:15 AM",
+ "stamp": "Sep 8, 2026, 9:40 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2137,6 +2137,11 @@
   },
   "2026-09-08": {
    "weight": 162,
+   "waist": 35.4,
+   "neck": 14.4,
+   "bodyFat": 23,
+   "tape": "electronic",
+   "bodyFatNote": "First reading on the electronic tape. Not comparable to Sep 7's manual 35.0″ — two things changed at once: a new tool, and a 6,370mg sodium day that put 1.1 lb of water on the scale overnight. Treat this as a fresh baseline and trend forward from here.",
    "partial": true,
    "sleep": {
     "asleep": 496,
