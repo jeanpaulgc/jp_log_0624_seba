@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-08",
- "stamp": "Sep 8, 2026, 7:40 PM",
+ "stamp": "Sep 8, 2026, 7:55 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -1133,7 +1133,7 @@
      "peakHr": 161,
      "cal": 282,
      "source": "Apple Watch",
-     "sets": "Bent-over DB rows 2×40 lb: 12/10/12 (subbed for inverted rows) · full session completed",
+     "sets": "Bent-over DB rows 2×40 lb: 12/10/12 · full session completed",
      "note": "84°F / 73% humidity — effort self-rated 10/10, 59 min vs 40 prescribed"
     }
    ]
@@ -2210,7 +2210,7 @@
        ]
       },
       {
-       "name": "Rows",
+       "name": "Bent-over DB rows, 2×40 lb",
        "reps": [
         15,
         17,
@@ -2226,7 +2226,7 @@
        ]
       }
      ],
-     "sets": "Squats 15/15/15/20 — 20 on the last set means the load is light. Rows 15/17/17, well past the 10–12 prescribed.",
+     "sets": "Squats 15/15/15/20 — 20 on the last set means the load is light. Bent-over DB rows 15/17/17 with the 40s, well past the 10–12 prescribed.",
      "note": "82°F, 82% humidity. Effort 9/10. Longest session in the log at 81 minutes. Three movements came back at exactly 10/10/10 — prescriptions, not limits."
     }
    ]
