@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-08",
- "stamp": "Sep 8, 2026, 7:55 PM",
+ "updated": "2026-09-09",
+ "stamp": "Sep 8, 2026, 8:30 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2142,7 +2142,6 @@
    "bodyFat": 23,
    "tape": "electronic",
    "bodyFatNote": "First reading on the electronic tape. Not comparable to Sep 7's manual 35.0″ — two things changed at once: a new tool, and a 6,370mg sodium day that put 1.1 lb of water on the scale overnight. Treat this as a fresh baseline and trend forward from here.",
-   "partial": true,
    "sleep": {
     "asleep": 496,
     "inBed": 560,
@@ -2164,6 +2163,55 @@
      "cal": 480,
      "pro": 32,
      "sodium": 750,
+     "sodEst": true
+    },
+    {
+     "name": "Rotisserie chicken, half, skin mostly off",
+     "cal": 540,
+     "pro": 70,
+     "sodium": 1100,
+     "sodEst": true
+    },
+    {
+     "name": "Habichuelas, ¾ cup",
+     "cal": 165,
+     "pro": 10,
+     "sodium": 380,
+     "sodEst": true
+    },
+    {
+     "name": "Arroz blanco, ½ cup",
+     "cal": 105,
+     "pro": 2,
+     "sodium": 180,
+     "sodEst": true
+    },
+    {
+     "name": "Mangú, ½ cup",
+     "cal": 150,
+     "pro": 2,
+     "sodium": 320,
+     "sodEst": true
+    },
+    {
+     "name": "Yuca, boiled, ⅓ cup",
+     "cal": 110,
+     "pro": 1,
+     "sodium": 60,
+     "sodEst": true
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
+    },
+    {
+     "name": "Coke Zero, 2 mini",
+     "cal": 0,
+     "pro": 0,
+     "sodium": 50,
      "sodEst": true
     }
    ],
