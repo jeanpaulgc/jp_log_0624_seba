@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-09",
- "stamp": "Sep 9, 2026, 8:30 AM",
+ "stamp": "Sep 9, 2026, 11:00 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2310,6 +2310,12 @@
      "name": "Avena, 8 oz",
      "cal": 280,
      "pro": 11
+    },
+    {
+     "name": "Premier protein shake",
+     "cal": 160,
+     "pro": 30,
+     "sodium": 210
     }
    ]
   }
