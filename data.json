@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-09",
- "stamp": "Sep 8, 2026, 8:30 PM",
+ "stamp": "Sep 9, 2026, 6:00 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2278,6 +2278,18 @@
      "note": "82°F, 82% humidity. Effort 9/10. Longest session in the log at 81 minutes. Three movements came back at exactly 10/10/10 — prescriptions, not limits."
     }
    ]
+  },
+  "2026-09-09": {
+   "weight": 162.7,
+   "partial": true,
+   "sleep": {
+    "asleep": 309,
+    "inBed": 380,
+    "awake": 71,
+    "rem": 66,
+    "light": 198,
+    "deep": 45
+   }
   }
  }
 }
