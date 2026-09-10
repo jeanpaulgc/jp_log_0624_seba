@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-10",
- "stamp": "Sep 10, 2026, 6:00 AM",
+ "stamp": "Sep 10, 2026, 8:30 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2370,6 +2370,20 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Desayuno tradicional — omelet, 3 bacon, veg, no bread (bakery)",
+     "cal": 665,
+     "pro": 47,
+     "sodium": 1100,
+     "sodEst": true
+    },
+    {
+     "name": "Avena, 8 oz",
+     "cal": 280,
+     "pro": 11,
+     "sodium": 150,
      "sodEst": true
     }
    ]
