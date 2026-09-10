@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-10",
- "stamp": "Sep 9, 2026, 10:57 PM",
+ "stamp": "Sep 10, 2026, 6:00 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2349,6 +2349,27 @@
      "cal": 105,
      "pro": 1,
      "sodium": 1,
+     "sodEst": true
+    }
+   ]
+  },
+  "2026-09-10": {
+   "weight": 161.8,
+   "partial": true,
+   "sleep": {
+    "asleep": 277,
+    "inBed": 306,
+    "awake": 30,
+    "rem": 53,
+    "light": 152,
+    "deep": 73
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10,
+     "sodium": 130,
      "sodEst": true
     }
    ]
