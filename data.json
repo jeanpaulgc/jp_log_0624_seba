@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-09",
- "stamp": "Sep 9, 2026, 11:00 AM",
+ "updated": "2026-09-10",
+ "stamp": "Sep 9, 2026, 1:30 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2316,6 +2316,41 @@
      "cal": 160,
      "pro": 30,
      "sodium": 210
+    },
+    {
+     "name": "Ground beef, 6 oz cooked",
+     "cal": 400,
+     "pro": 45,
+     "sodium": 480,
+     "sodEst": true
+    },
+    {
+     "name": "Habichuelas, 1 cup",
+     "cal": 220,
+     "pro": 13,
+     "sodium": 500,
+     "sodEst": true
+    },
+    {
+     "name": "Arroz blanco, ½ cup",
+     "cal": 105,
+     "pro": 2,
+     "sodium": 180,
+     "sodEst": true
+    },
+    {
+     "name": "Mangú, ½ cup",
+     "cal": 150,
+     "pro": 2,
+     "sodium": 320,
+     "sodEst": true
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
     }
    ]
   }
