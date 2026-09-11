@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-11",
- "stamp": "Sep 11, 2026, 6:30 AM",
+ "stamp": "Sep 11, 2026, 8:30 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2477,6 +2477,20 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Omelet with veg, 3 plantain slices instead of bacon (bakery)",
+     "cal": 700,
+     "pro": 40,
+     "sodium": 800,
+     "sodEst": true
+    },
+    {
+     "name": "Avena, 12 oz",
+     "cal": 420,
+     "pro": 17,
+     "sodium": 220,
      "sodEst": true
     }
    ]
