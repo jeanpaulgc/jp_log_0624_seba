@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-11",
- "stamp": "Sep 10, 2026, 11:00 PM",
+ "stamp": "Sep 11, 2026, 6:30 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2457,6 +2457,27 @@
      ],
      "sets": "9 rounds in 25:01. 45 pull-ups, 90 push-ups, 135 air squats. 2:47 per round",
      "note": "78°F, 89% humidity. Effort 7/10. First Cindy on the new Thursday slot, on 4h37 of sleep."
+    }
+   ]
+  },
+  "2026-09-11": {
+   "weight": 161.4,
+   "partial": true,
+   "sleep": {
+    "asleep": 284,
+    "inBed": 317,
+    "awake": 33,
+    "rem": 69,
+    "light": 154,
+    "deep": 62
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     }
    ]
   }
