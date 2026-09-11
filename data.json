@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-11",
- "stamp": "Sep 10, 2026, 1:30 PM",
+ "stamp": "Sep 10, 2026, 11:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2355,7 +2355,7 @@
   },
   "2026-09-10": {
    "weight": 161.8,
-   "partial": true,
+   "water": 40,
    "sleep": {
     "asleep": 277,
     "inBed": 306,
@@ -2399,6 +2399,64 @@
      "pro": 4,
      "sodium": 350,
      "sodEst": true
+    }
+   ],
+   "training": [
+    {
+     "type": "Cindy",
+     "min": 25,
+     "avgHr": 133,
+     "peakHr": 159,
+     "cal": 178,
+     "source": "Apple Watch",
+     "rounds": 9,
+     "secs": 1501,
+     "lifts": [
+      {
+       "name": "Pull-ups",
+       "reps": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+       ]
+      },
+      {
+       "name": "Push-ups",
+       "reps": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Air squats",
+       "reps": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+       ]
+      }
+     ],
+     "sets": "9 rounds in 25:01. 45 pull-ups, 90 push-ups, 135 air squats. 2:47 per round",
+     "note": "78°F, 89% humidity. Effort 7/10. First Cindy on the new Thursday slot, on 4h37 of sleep."
     }
    ]
   }
