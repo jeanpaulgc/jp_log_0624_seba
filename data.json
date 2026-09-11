@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-10",
- "stamp": "Sep 10, 2026, 8:30 AM",
+ "updated": "2026-09-11",
+ "stamp": "Sep 10, 2026, 1:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2384,6 +2384,20 @@
      "cal": 280,
      "pro": 11,
      "sodium": 150,
+     "sodEst": true
+    },
+    {
+     "name": "Ground beef, 8 oz cooked, leftover",
+     "cal": 530,
+     "pro": 60,
+     "sodium": 640,
+     "sodEst": true
+    },
+    {
+     "name": "Arroz blanco, 1 cup",
+     "cal": 205,
+     "pro": 4,
+     "sodium": 350,
      "sodEst": true
     }
    ]
