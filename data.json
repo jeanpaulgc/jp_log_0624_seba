@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-12",
- "stamp": "Sep 12, 2026, 10:35 AM",
+ "stamp": "Sep 12, 2026, 1:15 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2539,6 +2539,20 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Grilled chicken sandwich, bacon, provolone, brioche (work cafeteria)",
+     "cal": 800,
+     "pro": 55,
+     "sodium": 1600,
+     "sodEst": true
+    },
+    {
+     "name": "Diet Coke",
+     "cal": 0,
+     "pro": 0,
+     "sodium": 40,
      "sodEst": true
     }
    ]
