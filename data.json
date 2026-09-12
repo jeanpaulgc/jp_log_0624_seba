@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-11",
- "stamp": "Sep 11, 2026, 8:30 AM",
+ "updated": "2026-09-12",
+ "stamp": "Sep 12, 2026, 9:30 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2462,7 +2462,6 @@
   },
   "2026-09-11": {
    "weight": 161.4,
-   "partial": true,
    "sleep": {
     "asleep": 284,
     "inBed": 317,
@@ -2491,6 +2490,55 @@
      "cal": 420,
      "pro": 17,
      "sodium": 220,
+     "sodEst": true
+    },
+    {
+     "name": "Chicken breast, 8 oz cooked",
+     "cal": 380,
+     "pro": 70,
+     "sodium": 480,
+     "sodEst": true
+    },
+    {
+     "name": "Habichuelas, ¾ cup",
+     "cal": 165,
+     "pro": 10,
+     "sodium": 380,
+     "sodEst": true
+    },
+    {
+     "name": "Arroz blanco, ½ cup",
+     "cal": 105,
+     "pro": 2,
+     "sodium": 180,
+     "sodEst": true
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1,
+     "sodium": 1,
+     "sodEst": true
+    }
+   ]
+  },
+  "2026-09-12": {
+   "weight": 161,
+   "partial": true,
+   "sleep": {
+    "asleep": 396,
+    "inBed": 456,
+    "awake": 60,
+    "rem": 94,
+    "light": 216,
+    "deep": 87
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10,
+     "sodium": 130,
      "sodEst": true
     }
    ]
