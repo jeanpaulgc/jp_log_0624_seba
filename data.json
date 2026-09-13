@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-13",
- "stamp": "Sep 13, 2026, 9:45 AM",
+ "stamp": "Sep 13, 2026, 1:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2668,6 +2668,20 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Burger — beef patty, fried egg, bacon, American cheese, brioche, veg, mayo and ketchup (work cafeteria)",
+     "cal": 880,
+     "pro": 50,
+     "sodium": 1550,
+     "sodEst": true
+    },
+    {
+     "name": "Diet Coke",
+     "cal": 0,
+     "pro": 0,
+     "sodium": 40,
      "sodEst": true
     }
    ]
