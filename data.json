@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-13",
- "stamp": "Sep 12, 2026, 9:30 PM",
+ "stamp": "Sep 13, 2026, 9:45 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2648,6 +2648,27 @@
      ],
      "sets": "12 rounds in 24:11. 60 pull-ups, 120 push-ups, 180 air squats. 2:01 per round, 9.9 at a fixed 20-minute clock",
      "note": "79°F, 87% humidity. Effort 10/10. Best session in the log — same rounds as Sep 5 but six minutes faster, off 6h36 of sleep after skipping Friday."
+    }
+   ]
+  },
+  "2026-09-13": {
+   "weight": 161.5,
+   "partial": true,
+   "sleep": {
+    "asleep": 369,
+    "inBed": 422,
+    "awake": 53,
+    "rem": 50,
+    "light": 274,
+    "deep": 45
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     }
    ]
   }
