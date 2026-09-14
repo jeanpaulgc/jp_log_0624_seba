@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-13",
- "stamp": "Sep 13, 2026, 1:00 PM",
+ "updated": "2026-09-14",
+ "stamp": "Sep 13, 2026, 8:45 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2653,7 +2653,6 @@
   },
   "2026-09-13": {
    "weight": 161.5,
-   "partial": true,
    "sleep": {
     "asleep": 369,
     "inBed": 422,
@@ -2682,6 +2681,34 @@
      "cal": 0,
      "pro": 0,
      "sodium": 40,
+     "sodEst": true
+    },
+    {
+     "name": "Carne guisada, 7 oz",
+     "cal": 400,
+     "pro": 52,
+     "sodium": 820,
+     "sodEst": true
+    },
+    {
+     "name": "Habichuelas, 1 cup",
+     "cal": 220,
+     "pro": 13,
+     "sodium": 500,
+     "sodEst": true
+    },
+    {
+     "name": "Arroz blanco, ½ cup",
+     "cal": 105,
+     "pro": 2,
+     "sodium": 180,
+     "sodEst": true
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1,
+     "sodium": 1,
      "sodEst": true
     }
    ]
