@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-14",
- "stamp": "Sep 14, 2026, 4:20 PM",
+ "stamp": "Sep 14, 2026, 4:25 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2752,10 +2752,10 @@
      "sodEst": true
     },
     {
-     "name": "Sourdough, 1 thin slice, toasted",
-     "cal": 110,
-     "pro": 4,
-     "sodium": 220,
+     "name": "Sourdough, 2 bites",
+     "cal": 30,
+     "pro": 1,
+     "sodium": 60,
      "sodEst": true
     }
    ]
