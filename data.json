@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-14",
- "stamp": "Sep 14, 2026, 2:30 PM",
+ "stamp": "Sep 14, 2026, 2:45 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2715,6 +2715,11 @@
   },
   "2026-09-14": {
    "weight": 161.3,
+   "waist": 35.51,
+   "neck": 14.29,
+   "bodyFat": 23.4,
+   "tape": "electronic",
+   "bodyFatNote": "Second electronic reading, six days after the first. Waist 35.40 to 35.51, neck 14.40 to 14.29 — both inside tape error. Navy 23.0 to 23.4. No measurable change, which matches the 7-day average going flat over the same stretch.",
    "partial": true,
    "sleep": {
     "asleep": 521,
