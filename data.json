@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-14",
- "stamp": "Sep 14, 2026, 4:45 PM",
+ "stamp": "Sep 14, 2026, 6:05 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2715,7 +2715,7 @@
   },
   "2026-09-14": {
    "weight": 161.3,
-   "water": 20,
+   "water": 60,
    "waist": 35.51,
    "neck": 14.29,
    "bodyFat": 23.4,
@@ -2765,6 +2765,74 @@
      "pro": 10,
      "sodium": 130,
      "sodEst": true
+    }
+   ],
+   "training": [
+    {
+     "type": "Strength A",
+     "min": 86,
+     "avgHr": 126,
+     "peakHr": 172,
+     "cal": 393,
+     "source": "Apple Watch",
+     "lifts": [
+      {
+       "name": "Pull-ups",
+       "reps": [
+        16,
+        12,
+        11,
+        12
+       ]
+      },
+      {
+       "name": "Deep push-ups on handles",
+       "reps": [
+        10,
+        10,
+        10,
+        11
+       ]
+      },
+      {
+       "name": "Push-ups, feet elevated",
+       "reps": [
+        15,
+        15,
+        15,
+        15
+       ]
+      },
+      {
+       "name": "Push-ups, hands on a bench",
+       "reps": [
+        15,
+        15,
+        15,
+        13
+       ]
+      },
+      {
+       "name": "Slider flyes",
+       "reps": [
+        10,
+        8,
+        8,
+        9
+       ]
+      },
+      {
+       "name": "Hollow hold, sec",
+       "reps": [
+        40,
+        40,
+        40,
+        50
+       ]
+      }
+     ],
+     "sets": "Pull-ups 16/12/11/12 — failure set up one from 15. 51 total. Deep handle push-ups 41, feet elevated 60, bench 58.",
+     "note": "89°F, 67% humidity. Effort 10/10. First session at the 1,900 target. Failure set went UP."
     }
    ]
   }
