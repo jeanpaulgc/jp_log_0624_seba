@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-15",
- "stamp": "Sep 15, 2026, 11:30 AM",
+ "stamp": "Sep 15, 2026, 4:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2929,6 +2929,67 @@
      "source": "Oura",
      "sets": "2,144 steps. 37 min zone 1, 18 min zone 2, 3 min zone 3.",
      "note": "Incidental activity, not a session. Zone 1 and 2 throughout."
+    },
+    {
+     "type": "Strength B",
+     "min": 65,
+     "avgHr": 119,
+     "peakHr": 164,
+     "cal": 288,
+     "source": "Apple Watch",
+     "lifts": [
+      {
+       "name": "Squats, bodyweight",
+       "reps": [
+        40,
+        18,
+        20,
+        20
+       ]
+      },
+      {
+       "name": "Bulgarian split squat",
+       "reps": [
+        25,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Reverse lunges",
+       "reps": [
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Single-leg glute bridge",
+       "reps": [
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Bent-over DB rows, 2×40 lb",
+       "reps": [
+        15,
+        15,
+        15
+       ]
+      },
+      {
+       "name": "Side plank, sec",
+       "reps": [
+        30,
+        30,
+        30
+       ]
+      }
+     ],
+     "sets": "Squats to failure: 40. Bulgarians to failure: 25. Both far past prescription — bodyweight is no longer a strength stimulus for the legs.",
+     "note": "87°F, 72% humidity. Effort 8/10. Followed an hour of yardwork. The failure tests settle it: legs need external load."
     }
    ]
   }
