@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-14",
- "stamp": "Sep 14, 2026, 6:30 PM",
+ "updated": "2026-09-15",
+ "stamp": "Sep 14, 2026, 8:30 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2721,7 +2721,6 @@
    "bodyFat": 23.4,
    "tape": "electronic",
    "bodyFatNote": "Second electronic reading, six days after the first. Waist 35.40 to 35.51, neck 14.40 to 14.29 — both inside tape error. Navy 23.0 to 23.4. No measurable change, which matches the 7-day average going flat over the same stretch.",
-   "partial": true,
    "sleep": {
     "asleep": 521,
     "inBed": 578,
@@ -2764,6 +2763,41 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Bang Bang shrimp, half order",
+     "cal": 350,
+     "pro": 14,
+     "sodium": 900,
+     "sodEst": true
+    },
+    {
+     "name": "Ocean mixed grill — 5 ahi tuna slices, 2 shrimp, 2 half salmon portions, sauces",
+     "cal": 620,
+     "pro": 74,
+     "sodium": 1500,
+     "sodEst": true
+    },
+    {
+     "name": "Caesar salad with 3 croutons",
+     "cal": 210,
+     "pro": 5,
+     "sodium": 420,
+     "sodEst": true
+    },
+    {
+     "name": "Broccoli, steamed",
+     "cal": 60,
+     "pro": 4,
+     "sodium": 240,
+     "sodEst": true
+    },
+    {
+     "name": "Coke Zero, 2",
+     "cal": 0,
+     "pro": 0,
+     "sodium": 80,
      "sodEst": true
     }
    ],
