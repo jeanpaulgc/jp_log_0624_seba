@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-15",
- "stamp": "Sep 15, 2026, 9:00 AM",
+ "stamp": "Sep 15, 2026, 9:30 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2887,6 +2887,34 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Arroz con habichuelas, large plate",
+     "cal": 420,
+     "pro": 15,
+     "sodium": 830,
+     "sodEst": true
+    },
+    {
+     "name": "Scrambled eggs, 3",
+     "cal": 300,
+     "pro": 21,
+     "sodium": 320,
+     "sodEst": true
+    },
+    {
+     "name": "American cheese, 1 slice",
+     "cal": 60,
+     "pro": 3,
+     "sodium": 220,
+     "sodEst": true
+    },
+    {
+     "name": "Banana, half",
+     "cal": 55,
+     "pro": 1,
+     "sodium": 1,
      "sodEst": true
     }
    ]
