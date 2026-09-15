@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-15",
- "stamp": "Sep 14, 2026, 8:30 PM",
+ "stamp": "Sep 15, 2026, 9:00 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -2867,6 +2867,27 @@
      ],
      "sets": "Pull-ups 16/12/11/12 — failure set up one from 15. 51 total. Deep handle push-ups 41, feet elevated 60, bench 58.",
      "note": "89°F, 67% humidity. Effort 10/10. First session at the 1,900 target. Failure set went UP."
+    }
+   ]
+  },
+  "2026-09-15": {
+   "weight": 160.3,
+   "partial": true,
+   "sleep": {
+    "asleep": 479,
+    "inBed": 563,
+    "awake": 85,
+    "rem": 92,
+    "light": 318,
+    "deep": 69
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     }
    ]
   }
