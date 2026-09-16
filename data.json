@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-16",
- "stamp": "Sep 16, 2026, 6:00 AM",
+ "stamp": "Sep 16, 2026, 1:30 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3023,6 +3023,27 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Rotisserie chicken, 3/4, skin mostly off",
+     "cal": 810,
+     "pro": 105,
+     "sodium": 1650,
+     "sodEst": true
+    },
+    {
+     "name": "Arroz blanco, ½ cup",
+     "cal": 105,
+     "pro": 2,
+     "sodium": 180,
+     "sodEst": true
+    },
+    {
+     "name": "Banana",
+     "cal": 105,
+     "pro": 1,
+     "sodium": 1,
      "sodEst": true
     }
    ]
