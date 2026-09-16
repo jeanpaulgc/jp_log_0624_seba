@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-16",
- "stamp": "Sep 15, 2026, 7:30 PM",
+ "stamp": "Sep 16, 2026, 6:00 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3003,6 +3003,27 @@
      ],
      "sets": "Squats to failure: 40. Bulgarians to failure: 25. Both far past prescription — bodyweight is no longer a strength stimulus for the legs.",
      "note": "87°F, 72% humidity. Effort 8/10. Followed an hour of yardwork. The failure tests settle it: legs need external load."
+    }
+   ]
+  },
+  "2026-09-16": {
+   "weight": 161,
+   "partial": true,
+   "sleep": {
+    "asleep": 339,
+    "inBed": 421,
+    "awake": 83,
+    "rem": 52,
+    "light": 216,
+    "deep": 71
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     }
    ]
   }
