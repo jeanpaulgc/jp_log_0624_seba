@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-16",
- "stamp": "Sep 16, 2026, 1:30 PM",
+ "updated": "2026-09-17",
+ "stamp": "Sep 16, 2026, 6:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3045,6 +3045,12 @@
      "pro": 1,
      "sodium": 1,
      "sodEst": true
+    },
+    {
+     "name": "Premier protein shake",
+     "cal": 160,
+     "pro": 30,
+     "sodium": 210
     }
    ]
   }
