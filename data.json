@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-17",
- "stamp": "Sep 17, 2026, 8:30 AM",
+ "stamp": "Sep 17, 2026, 1:30 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3084,6 +3084,41 @@
      "cal": 420,
      "pro": 17,
      "sodium": 220,
+     "sodEst": true
+    },
+    {
+     "name": "Half chicken, white meat (Pollo Tropical)",
+     "cal": 520,
+     "pro": 78,
+     "sodium": 1400,
+     "sodEst": true
+    },
+    {
+     "name": "Black beans",
+     "cal": 190,
+     "pro": 11,
+     "sodium": 480,
+     "sodEst": true
+    },
+    {
+     "name": "Arroz blanco",
+     "cal": 205,
+     "pro": 4,
+     "sodium": 350,
+     "sodEst": true
+    },
+    {
+     "name": "Sweet plantains, 2",
+     "cal": 180,
+     "pro": 1,
+     "sodium": 190,
+     "sodEst": true
+    },
+    {
+     "name": "Cilantro garlic sauce, drizzle",
+     "cal": 100,
+     "pro": 0,
+     "sodium": 180,
      "sodEst": true
     }
    ]
