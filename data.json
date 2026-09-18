@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-18",
- "stamp": "Sep 18, 2026, 7:00 PM",
+ "stamp": "Sep 18, 2026, 8:15 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3271,6 +3271,20 @@
      "cal": 300,
      "pro": 26,
      "sodium": 720,
+     "sodEst": true
+    },
+    {
+     "name": "Cheese pizza, personal",
+     "cal": 620,
+     "pro": 26,
+     "sodium": 1180,
+     "sodEst": true
+    },
+    {
+     "name": "Frozen prosecco",
+     "cal": 220,
+     "pro": 0,
+     "sodium": 15,
      "sodEst": true
     }
    ]
