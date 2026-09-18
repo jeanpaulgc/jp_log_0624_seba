@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-17",
- "stamp": "Sep 17, 2026, 1:30 PM",
+ "updated": "2026-09-18",
+ "stamp": "Sep 17, 2026, 11:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3055,7 +3055,6 @@
   },
   "2026-09-17": {
    "weight": 158.6,
-   "partial": true,
    "sleep": {
     "asleep": 223,
     "inBed": 295,
@@ -3120,6 +3119,61 @@
      "pro": 0,
      "sodium": 180,
      "sodEst": true
+    }
+   ],
+   "training": [
+    {
+     "type": "Cindy",
+     "min": 24,
+     "avgHr": 125,
+     "peakHr": 160,
+     "cal": 152,
+     "source": "Apple Watch",
+     "rounds": 8,
+     "secs": 1426,
+     "lifts": [
+      {
+       "name": "Pull-ups",
+       "reps": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+       ]
+      },
+      {
+       "name": "Push-ups",
+       "reps": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+       ]
+      },
+      {
+       "name": "Air squats",
+       "reps": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+       ]
+      }
+     ],
+     "sets": "8 rounds in 23:46. 40 pull-ups, 80 push-ups, 120 air squats. 2:58 per round, 6.7 at a fixed 20-minute clock",
+     "note": "76°F, 83% humidity. Effort 5/10, started 10:26 PM on 3h43 of sleep. Paced deliberately, not a failed session."
     }
    ]
   }
