@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-18",
- "stamp": "Sep 18, 2026, 3:30 PM",
+ "stamp": "Sep 18, 2026, 5:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3236,6 +3236,20 @@
      "cal": 130,
      "pro": 0,
      "sodium": 10,
+     "sodEst": true
+    },
+    {
+     "name": "Yellow rice and black beans, medium portion",
+     "cal": 420,
+     "pro": 12,
+     "sodium": 780,
+     "sodEst": true
+    },
+    {
+     "name": "Red sangria",
+     "cal": 220,
+     "pro": 0,
+     "sodium": 15,
      "sodEst": true
     }
    ]
