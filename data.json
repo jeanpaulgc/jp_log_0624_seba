@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-18",
- "stamp": "Sep 18, 2026, 5:00 PM",
+ "stamp": "Sep 18, 2026, 7:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3250,6 +3250,27 @@
      "cal": 220,
      "pro": 0,
      "sodium": 15,
+     "sodEst": true
+    },
+    {
+     "name": "Orange chicken",
+     "cal": 490,
+     "pro": 25,
+     "sodium": 830,
+     "sodEst": true
+    },
+    {
+     "name": "Fried rice",
+     "cal": 380,
+     "pro": 8,
+     "sodium": 900,
+     "sodEst": true
+    },
+    {
+     "name": "Teriyaki chicken bites",
+     "cal": 300,
+     "pro": 26,
+     "sodium": 720,
      "sodEst": true
     }
    ]
