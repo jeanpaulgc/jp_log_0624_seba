@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-18",
- "stamp": "Sep 18, 2026, 2:00 PM",
+ "stamp": "Sep 18, 2026, 3:30 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3222,6 +3222,20 @@
      "cal": 130,
      "pro": 6,
      "sodium": 380,
+     "sodEst": true
+    },
+    {
+     "name": "Lamb chop, small",
+     "cal": 260,
+     "pro": 22,
+     "sodium": 380,
+     "sodEst": true
+    },
+    {
+     "name": "Wine flight, 2 tasters",
+     "cal": 130,
+     "pro": 0,
+     "sodium": 10,
      "sodEst": true
     }
    ]
