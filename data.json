@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-18",
- "stamp": "Sep 18, 2026, 9:00 AM",
+ "stamp": "Sep 18, 2026, 2:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3194,6 +3194,34 @@
      "cal": 150,
      "pro": 10,
      "sodium": 130,
+     "sodEst": true
+    },
+    {
+     "name": "Popcorn, park portion",
+     "cal": 250,
+     "pro": 4,
+     "sodium": 400,
+     "sodEst": true
+    },
+    {
+     "name": "Pineapple wine, glass",
+     "cal": 150,
+     "pro": 0,
+     "sodium": 10,
+     "sodEst": true
+    },
+    {
+     "name": "Pork slider",
+     "cal": 330,
+     "pro": 18,
+     "sodium": 620,
+     "sodEst": true
+    },
+    {
+     "name": "Spam poke bowl, 4 bites",
+     "cal": 130,
+     "pro": 6,
+     "sodium": 380,
      "sodEst": true
     }
    ]
