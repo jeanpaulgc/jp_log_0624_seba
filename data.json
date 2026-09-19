@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-18",
- "stamp": "Sep 18, 2026, 8:20 PM",
+ "updated": "2026-09-19",
+ "stamp": "Sep 18, 2026, 10:00 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3179,7 +3179,6 @@
   },
   "2026-09-18": {
    "weight": 159.4,
-   "partial": true,
    "sleep": {
     "asleep": 409,
     "inBed": 453,
@@ -3279,6 +3278,16 @@
      "pro": 26,
      "sodium": 1180,
      "sodEst": true
+    }
+   ],
+   "training": [
+    {
+     "type": "Walking",
+     "min": 300,
+     "cal": 420,
+     "source": "Apple Watch",
+     "sets": "10,149 steps across the day at Epcot.",
+     "note": "Incidental activity, not a session. Roughly 420 calories above baseline."
     }
    ]
   }
