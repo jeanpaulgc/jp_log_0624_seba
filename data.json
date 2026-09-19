@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
  "updated": "2026-09-19",
- "stamp": "Sep 18, 2026, 10:15 PM",
+ "stamp": "Sep 19, 2026, 6:30 AM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3289,6 +3289,27 @@
      "source": "Apple Watch",
      "sets": "10,149 steps across the day at Epcot.",
      "note": "Incidental activity, not a session. Roughly 420 calories above baseline."
+    }
+   ]
+  },
+  "2026-09-19": {
+   "weight": 162.7,
+   "partial": true,
+   "sleep": {
+    "asleep": 371,
+    "inBed": 448,
+    "awake": 77,
+    "rem": 91,
+    "light": 225,
+    "deep": 56
+   },
+   "food": [
+    {
+     "name": "Café con leche — 1¼ cup 2% milk, Splenda",
+     "cal": 150,
+     "pro": 10,
+     "sodium": 130,
+     "sodEst": true
     }
    ]
   }
