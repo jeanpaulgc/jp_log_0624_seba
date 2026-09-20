@@ -1,7 +1,7 @@
 {
  "_note": "Cut protocol log — durable backup. The site is generated from this.",
- "updated": "2026-09-19",
- "stamp": "Sep 19, 2026, 5:00 PM",
+ "updated": "2026-09-20",
+ "stamp": "Sep 19, 2026, 9:40 PM",
  "targets": {
   "cal": 2050,
   "protein": 130,
@@ -3600,6 +3600,18 @@
      "sodium": 40,
      "sodEst": true,
      "conf": "high"
+    }
+   ],
+   "training": [
+    {
+     "type": "Cindy",
+     "min": 36,
+     "avgHr": 132,
+     "peakHr": 171,
+     "cal": 257,
+     "source": "Apple Watch",
+     "sets": "36:21 of work. Round count not yet reported.",
+     "note": "77°F, 82% humidity. Effort 8/10, started 8:46 PM on 6h11 of sleep. Longest Cindy clock in the log."
     }
    ]
   }
