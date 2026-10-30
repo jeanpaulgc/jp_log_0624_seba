@@ -308,6 +308,57 @@ html,body{background:var(--bg);margin:0;color:var(--t1);font-family:${Zs};letter
 @keyframes sheetInWide{from{transform:translateX(-50%) translateY(102%)}to{transform:translateX(-50%)}}
 .wide .sheet{animation-name:sheetInWide}
 
+/* -- iPhone Duo, tablet mode (Oct 30) --------------------------------
+   Phone mode is untouched: every rule here is scoped to .wide.
+   Cover screen 466x678, inner screen 890x626 open flat (626x890 turned).
+   These come last so they win over the base .wide rules above. */
+.wide .sheet{right:auto;width:min(640px,calc(100vw - 24px))}
+
+/* Folded (cover screen): one column with a slim rail. Two columns of
+   cards do not fit in 466pt, so tablet mode becomes a wide single column
+   that keeps the side rail. */
+@media (max-width: 560px){
+  .wide{--rail-w:58px; --rail-x:calc(env(safe-area-inset-right, 0px) + 8px); --rail-gap:10px}
+  .wide .shell{padding-left:calc(env(safe-area-inset-left, 0px) + 12px);
+    padding-top:calc(env(safe-area-inset-top, 0px) + 18px);padding-bottom:28px}
+  .wide .stack{grid-template-columns:minmax(0,1fr);gap:10px}
+  .wide .hero-split{grid-template-columns:minmax(0,1fr);gap:10px}
+  .wide .hero-split .tiles{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .wide .tabbar,.wide .tabbar.compact{padding:5px;border-radius:22px}
+  .wide .tabbar .pill,.wide .tabbar.compact .pill{left:5px;right:5px;top:5px;height:calc((100% - 10px) / var(--n))}
+  .wide .tab-btn,.wide .tabbar.compact .tab-btn{padding:10px 2px;font-size:10.5px;gap:2px}
+  .wide .sheet{width:calc(100vw - 16px);bottom:8px;max-height:86vh}
+}
+
+/* Open, held upright (626 wide, 890 tall): two card columns, compact rail,
+   hero on its own row with the four tiles in a strip beneath it.
+   Capped at 700 wide so iPad mini portrait (744) keeps its layout. */
+@media (min-width: 561px) and (max-width: 700px) and (min-height: 821px){
+  .wide{--rail-w:64px; --rail-x:calc(env(safe-area-inset-right, 0px) + 10px); --rail-gap:12px}
+  .wide .shell{padding-left:calc(env(safe-area-inset-left, 0px) + 14px);
+    padding-top:calc(env(safe-area-inset-top, 0px) + 20px);padding-bottom:28px}
+  .wide .stack{gap:10px}
+  .wide .hero-split{grid-template-columns:minmax(0,1fr);gap:10px}
+  .wide .hero-split .tiles{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+  .wide .tabbar,.wide .tabbar.compact{padding:5px;border-radius:22px}
+  .wide .tabbar .pill,.wide .tabbar.compact .pill{left:5px;right:5px;top:5px;height:calc((100% - 10px) / var(--n))}
+  .wide .tab-btn,.wide .tabbar.compact .tab-btn{padding:10px 2px;font-size:11px;gap:2px}
+}
+
+/* Open flat (890 wide, 626 tall): margins are made symmetric so the gap
+   between the two card columns lands on the fold instead of a card. */
+@media (min-width: 761px) and (max-width: 1000px) and (max-height: 820px){
+  .wide{--rail-w:64px; --rail-x:calc(env(safe-area-inset-right, 0px) + 10px); --rail-gap:14px}
+  .wide .shell{padding-left:calc(env(safe-area-inset-left, 0px) + 10px + var(--rail-w) + var(--rail-gap));
+    padding-top:calc(env(safe-area-inset-top, 0px) + 16px);padding-bottom:22px}
+  .wide .stack{gap:12px}
+  .wide .hero-split{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+  .wide .tabbar,.wide .tabbar.compact{padding:5px;border-radius:22px}
+  .wide .tabbar .pill,.wide .tabbar.compact .pill{left:5px;right:5px;top:5px;height:calc((100% - 10px) / var(--n))}
+  .wide .tab-btn,.wide .tabbar.compact .tab-btn{padding:10px 2px;font-size:11px;gap:2px}
+  .wide .sheet{max-width:560px;bottom:12px}
+}
+
 /* Switching metric re-scales every bar. Move to the new value rather than
    cutting to it, with a slight ripple across the row. */
 .metric-bar{transition:height .58s cubic-bezier(.2,.85,.25,1),background-color .42s ease,
