@@ -2,7 +2,7 @@ import re, hashlib, os, glob, sys
 REPO='/home/claude/jp_log_0624_seba'
 SRC=f'{REPO}/app.bf0a90d6ac.js'
 s=open(SRC,encoding='utf-8').read()
-css=open('/home/claude/work/duo.css',encoding='utf-8').read()
+css=open(f'{REPO}/tools/duo.css',encoding='utf-8').read()
 assert '`' not in css and '${' not in css
 
 def rep(old,new,count=1):
@@ -33,15 +33,21 @@ rep('.recap,.sheet,.overflow-x-auto")){A.current=null;return}','.recap,.sheet,.o
 rep('(0,o.jsx)(Cy,{tab:l,setTab:m,compact:h})','(0,o.jsx)(Cy,{tab:l,setTab:m,compact:h,pin:Lz.mode==="split"?Lz.pin:null})')
 rep('function Cy({tab:e,setTab:t,compact:a}){','function Cy({tab:e,setTab:t,compact:a,pin:pn}){')
 rep('className:`tab-btn ${e===l?"on":""}`','className:`tab-btn ${e===l?"on":""} ${pn===l?"pinned":""}`')
-# 4. preview lives in /next/ and reads the same data file
-rep('fetch(`data.json?t=${Date.now()}`','fetch(`../data.json?t=${Date.now()}`')
-
+# 4. output: "live" writes the repo root; default writes the /next/ preview (reads ../data.json)
+LIVE=len(sys.argv)>1 and sys.argv[1]=='live'
+if not LIVE:
+    rep('fetch(`data.json?t=${Date.now()}`','fetch(`../data.json?t=${Date.now()}`')
 h=hashlib.sha1(s.encode()).hexdigest()[:10]
-out=f'{REPO}/next'; os.makedirs(out,exist_ok=True)
-for f in glob.glob(out+'/app.*.js'): os.remove(f)
-open(f'{out}/app.{h}.js','w',encoding='utf-8').write(s)
 html=open(f'{REPO}/index.html',encoding='utf-8').read()
-assert html.count('app.bf0a90d6ac.js')==1 and html.count('href="icon.png"')==2
-html=html.replace('app.bf0a90d6ac.js',f'app.{h}.js').replace('href="icon.png"','href="../icon.png"').replace('<title>Cut protocol</title>','<title>Cut protocol · Preview</title>')
-open(f'{out}/index.html','w',encoding='utf-8').write(html)
-print('built',h,len(s))
+cur=re.findall(r'app\.[0-9a-f]{10}\.js',html); assert len(cur)==1
+if LIVE:
+    open(f'{REPO}/app.{h}.js','w',encoding='utf-8').write(s)
+    open(f'{REPO}/index.html','w',encoding='utf-8').write(html.replace(cur[0],f'app.{h}.js'))
+else:
+    out=f'{REPO}/next'; os.makedirs(out,exist_ok=True)
+    for f in glob.glob(out+'/app.*.js'): os.remove(f)
+    open(f'{out}/app.{h}.js','w',encoding='utf-8').write(s)
+    assert html.count('href="icon.png"')==2
+    html=html.replace(cur[0],f'app.{h}.js').replace('href="icon.png"','href="../icon.png"').replace('<title>Cut protocol</title>','<title>Cut protocol · Preview</title>')
+    open(f'{out}/index.html','w',encoding='utf-8').write(html)
+print('built','live' if LIVE else 'next',h,len(s))
