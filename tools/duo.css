@@ -1,0 +1,150 @@
+
+/* == iPhone Duo redesign (Nov 14) ======================================
+   Layout is chosen in JS (auto / phone / wide / two pages) and expressed as
+   classes on .cr-root: (none) = phone, .wide = one wide page, .split = two
+   pages side by side, .solo = the pinned page shown alone in two-page mode. */
+.cr-root{min-height:100dvh}
+.ctrls .chip{position:relative}
+.ctrls .chip::before{content:"";position:absolute;inset:-6px;border-radius:999px}
+.cr-root:not(.wide) .tabbar{border-radius:999px}
+.cr-root:not(.wide) .tabbar .pill,.cr-root:not(.wide) .tab-btn{border-radius:999px}
+.tab-btn{min-height:46px}
+.tabbar.compact .tab-btn{min-height:38px}
+.tab-btn.pinned::after{content:"";position:absolute;top:5px;right:calc(50% - 17px);width:5px;height:5px;border-radius:9px;
+  background:var(--mint);box-shadow:0 0 8px rgba(var(--mint-rgb),.9)}
+
+/* layout + appearance menu */
+.lz-chip{width:31px;height:31px;border-radius:999px;background:var(--pill);display:flex;align-items:center;justify-content:center;
+  border:1px solid var(--line);color:var(--t2);flex:none}
+.lz-chip.on,html body div.cr-root[data-theme] .ctrls .lz-chip.on{background:var(--mint)!important;color:#04130c;border-color:transparent}
+.lz-back{position:fixed;inset:0;z-index:1}
+.lz-menu{position:absolute;z-index:2;top:calc(100% + 10px);right:0;width:min(326px,calc(100vw - 28px));padding:14px;border-radius:24px;
+  background:var(--solid-2);border:1px solid var(--line);box-shadow:var(--shadow),inset 0 1px 0 var(--rim-soft);
+  transform-origin:calc(100% - 60px) 0;animation:lzPop .32s cubic-bezier(.3,1.35,.5,1) both}
+@keyframes lzPop{from{opacity:0;transform:scale(.86) translateY(-8px)}to{opacity:1;transform:none}}
+.lz-h{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--t3);margin:2px 4px 8px}
+.lz-h:not(:first-child){margin-top:14px}
+.lz-seg{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px;padding:3px;border-radius:14px;background:var(--pill)}
+.lz-opt{min-height:36px;display:flex;align-items:center;justify-content:center;text-align:center;border-radius:11px;font-size:12.5px;font-weight:600;color:var(--t2);padding:0 2px;white-space:nowrap;
+  transition:background-color .25s ease,color .25s ease,transform .16s ease}
+.lz-opt:active{transform:scale(.95)}
+.lz-opt.on{background:var(--t1);color:var(--bg)}
+.lz-note{font-size:12.5px;line-height:1.4;color:var(--t3);margin:8px 4px 0}
+.lz-row{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;text-align:left;margin-top:14px;
+  padding:12px 12px 12px 14px;border-radius:16px;background:var(--pill)}
+.lz-row b{display:block;font-size:14.5px;font-weight:650;color:var(--t1)}
+.lz-row small{display:block;font-size:12px;color:var(--t3);margin-top:2px}
+.lz-sw{flex:none;width:46px;height:28px;border-radius:99px;background:var(--bar);position:relative;transition:background-color .3s ease}
+.lz-sw i{position:absolute;top:2px;left:2px;width:24px;height:24px;border-radius:99px;background:#fff;
+  box-shadow:0 2px 6px rgba(0,0,0,.35);transition:transform .34s cubic-bezier(.3,1.4,.5,1)}
+.lz-sw.on{background:var(--mint)}
+.lz-sw.on i{transform:translateX(18px)}
+
+/* -- two pages ------------------------------------------------------- */
+.split .shell,.solo .shell{max-width:none;
+  padding:calc(env(safe-area-inset-top, 0px) + 30px) calc(env(safe-area-inset-right, 0px) + 14px) 124px calc(env(safe-area-inset-left, 0px) + 14px)}
+.split .ctrls,.solo .ctrls{right:calc(env(safe-area-inset-right, 0px) + 14px)}
+.split .shell{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:16px;align-items:start}
+.split .shell>*{grid-column:1 / -1}
+.split .shell>.pane-main{grid-column:2;grid-row:1;min-width:0}
+.split .shell>.pane-side{grid-column:1;grid-row:1;min-width:0;position:sticky;top:0;height:100dvh;overflow-y:auto;overflow-x:hidden;
+  overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none;
+  margin-top:calc(-1 * (env(safe-area-inset-top, 0px) + 30px));
+  padding-top:calc(env(safe-area-inset-top, 0px) + 30px);padding-bottom:36px;
+  animation:lzSide .5s cubic-bezier(.2,.9,.22,1) both}
+.split .shell>.pane-side::-webkit-scrollbar{display:none}
+.split .shell>.pane-side:has(.wo),.split .shell>.pane-side:has(.recap),.split .shell>.pane-side:has(.sheet){z-index:60}
+@keyframes lzSide{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:none}}
+/* the seam sits on the hinge */
+.split .shell::before{content:"";position:fixed;left:50%;top:10%;bottom:10%;width:1px;pointer-events:none;
+  background:linear-gradient(180deg,transparent,var(--line) 20%,var(--line) 80%,transparent)}
+/* the tab bar belongs to the page it controls: bottom of the right half */
+.split .tabbar,.solo .tabbar{left:75%;width:min(340px,calc(50vw - 28px))}
+.split .sheet,.solo .sheet{left:50%;right:auto;transform:translateX(-50%);width:min(560px,calc(100vw - 24px));border-radius:28px;
+  bottom:12px;max-height:86vh;animation-name:sheetInWide}
+.split .sheet.out,.solo .sheet.out{transform:translateX(-50%) translateY(102%)}
+/* pinned page shown alone: one wide page, cards in two columns */
+.solo .stack{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
+.solo .stack>*{margin-top:0!important}
+.solo .stack>.span2{grid-column:1 / -1}
+.solo .hero-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;align-items:start}
+.solo .hero-split .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0}
+.solo .hero-wrap{transform:none!important;opacity:1!important}
+.solo .heat-grid{gap:8px}.solo .heat-cell{aspect-ratio:1.5}
+.solo .wins-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));column-gap:24px}
+.solo .wins-list>.win-row{border-top:none!important;padding:4px 0 2px!important}
+/* open and upright (626 wide): two pages only fit scaled down */
+@media (max-width: 739px){
+  .split .shell{column-gap:10px;padding-left:calc(env(safe-area-inset-left, 0px) + 10px);padding-right:calc(env(safe-area-inset-right, 0px) + 10px)}
+  .split .shell>.page{zoom:.8}
+  .split .shell>.pane-side{height:calc(100dvh / .8)}
+  .split .ctrls{right:calc(env(safe-area-inset-right, 0px) + 10px)}
+  .split .tabbar{width:calc(50vw - 20px)}
+  .split .tab-btn{font-size:11px;padding-left:2px;padding-right:2px}
+}
+
+/* == Liquid Glass (separate switch, works on dark and light) ===========
+   Same palette. Surfaces become clear glass: a thin bright rim that catches
+   light at the top-left and bottom-right, a soft inner glow, real blur on the
+   parts that float over content, and a richer backdrop to refract. */
+@property --lg-a{syntax:"<angle>";inherits:false;initial-value:135deg}
+.lg{--lg-fill:rgba(255,255,255,.050);--lg-fill-hi:rgba(255,255,255,.115);--lg-fill-lo:rgba(255,255,255,.026);
+  --lg-rim:rgba(255,255,255,.55);--lg-rim-2:rgba(255,255,255,.26);--lg-rim-soft:rgba(255,255,255,.07);
+  --lg-in:rgba(255,255,255,.16);--lg-drop:0 22px 44px -22px rgba(0,0,0,.85),0 3px 8px -2px rgba(0,0,0,.35);
+  --lg-float:rgba(255,255,255,.075);--lg-sheet:rgba(18,22,28,.62);
+  --lgA:rgba(var(--mint-rgb),0.34);--lgB:rgba(var(--brand-rgb),0.20);--lgC:rgba(86,112,255,0.26)}
+.lg[data-theme="light"]{--lg-fill:rgba(255,255,255,.46);--lg-fill-hi:rgba(255,255,255,.74);--lg-fill-lo:rgba(255,255,255,.30);
+  --lg-rim:rgba(255,255,255,1);--lg-rim-2:rgba(255,255,255,.85);--lg-rim-soft:rgba(255,255,255,.5);
+  --lg-in:rgba(255,255,255,.7);--lg-drop:0 20px 40px -22px rgba(40,32,12,.30),0 2px 6px -2px rgba(40,32,12,.10);
+  --lg-float:rgba(255,255,255,.50);--lg-sheet:rgba(250,249,246,.70);
+  --lgA:rgba(var(--mint-rgb),0.46);--lgB:rgba(var(--brand-rgb),0.38);--lgC:rgba(96,120,255,0.24)}
+html body div.cr-root.lg[data-theme] .cr-glow{display:block!important;inset:-12%;background:
+    radial-gradient(56% 46% at 8% 4%, var(--lgA), transparent 70%),
+    radial-gradient(48% 42% at 100% 30%, var(--lgB), transparent 70%),
+    radial-gradient(56% 44% at 24% 68%, var(--lgC), transparent 72%),
+    radial-gradient(50% 42% at 90% 98%, var(--lgA), transparent 70%)}
+html body div.cr-root.lg[data-theme] .glass:not(.tabbar),html body div.cr-root.lg[data-theme] .flip-face,html body div.cr-root.lg[data-theme] .today-hero{
+  background:linear-gradient(168deg,var(--lg-fill-hi) 0%,var(--lg-fill) 34%,var(--lg-fill-lo) 100%)!important;
+  border:0!important;
+  box-shadow:inset 0 1px 0 0 var(--lg-in),inset 0 -1px 0 0 var(--lg-rim-soft),inset 0 18px 30px -24px rgba(255,255,255,.22),var(--lg-drop)!important}
+html body div.cr-root.lg[data-theme] .glass:not(.tabbar)::after,html body div.cr-root.lg[data-theme] .flip-face::after{content:"";display:block!important;position:absolute;inset:0;border-radius:inherit;pointer-events:none;padding:1px;opacity:1;
+  background:linear-gradient(var(--lg-a),var(--lg-rim) 0%,var(--lg-rim-soft) 26%,transparent 46%,transparent 58%,var(--lg-rim-soft) 78%,var(--lg-rim-2) 100%);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+html body div.cr-root.lg[data-theme] .flip-face{position:relative}
+html body div.cr-root.lg[data-theme] .glass.glow{box-shadow:inset 0 1px 0 0 var(--lg-in),inset 0 18px 30px -24px rgba(255,255,255,.22),var(--card-glow),var(--lg-drop)!important}
+@supports (animation-timeline: view()){
+  html body div.cr-root.lg[data-theme] .glass:not(.tabbar)::after{animation:lgTurn linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+  @keyframes lgTurn{from{--lg-a:112deg}to{--lg-a:164deg}}
+}
+/* floating pieces: clear, with real blur of whatever passes underneath */
+html body div.cr-root.lg[data-theme] .tabbar{background:linear-gradient(180deg,rgba(255,255,255,.13),var(--lg-float) 55%,rgba(255,255,255,.04))!important;
+  -webkit-backdrop-filter:blur(14px) saturate(210%) brightness(1.12);backdrop-filter:blur(14px) saturate(210%) brightness(1.12);
+  box-shadow:inset 0 1px 0 0 var(--lg-rim-2),inset 0 -1px 0 0 var(--lg-rim-soft),inset 0 0 14px rgba(255,255,255,.06),
+    0 18px 40px -12px rgba(0,0,0,.55),0 2px 6px rgba(0,0,0,.25)}
+html body div.cr-root.lg[data-theme="light"] .tabbar{background:linear-gradient(180deg,rgba(255,255,255,.70),var(--lg-float) 55%,rgba(255,255,255,.36))!important;
+  box-shadow:inset 0 1px 0 0 #fff,inset 0 0 14px rgba(255,255,255,.5),0 18px 40px -16px rgba(40,32,12,.30),0 2px 6px rgba(40,32,12,.08)}
+html body div.cr-root.lg[data-theme] .tabbar::after{display:block!important;inset:0;background:linear-gradient(135deg,var(--lg-rim),var(--lg-rim-soft) 28%,transparent 48%,transparent 60%,var(--lg-rim-soft) 80%,var(--lg-rim-2))}
+html body div.cr-root.lg[data-theme] .tabbar .pill{background:linear-gradient(180deg,rgba(255,255,255,.26),rgba(255,255,255,.10))!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.14),inset 0 0 10px rgba(255,255,255,.08),
+    0 6px 16px -4px rgba(0,0,0,.35),0 0 22px -6px rgba(var(--mint-rgb),.55)}
+html body div.cr-root.lg[data-theme="light"] .tabbar .pill{background:linear-gradient(180deg,#fff,rgba(255,255,255,.72))!important;
+  box-shadow:inset 0 1px 0 #fff,0 4px 14px -4px rgba(40,32,12,.25),0 0 20px -6px rgba(var(--mint-rgb),.6)}
+html body div.cr-root.lg[data-theme] .ctrls .chip,html body div.cr-root.lg[data-theme] .tswitch,html body div.cr-root.lg[data-theme] .lz-chip{background:linear-gradient(180deg,rgba(255,255,255,.16),var(--lg-float))!important;border:0!important;
+  -webkit-backdrop-filter:blur(12px) saturate(200%);backdrop-filter:blur(12px) saturate(200%);
+  box-shadow:inset 0 1px 0 var(--lg-rim-2),inset 0 -1px 0 var(--lg-rim-soft),inset 0 0 0 .5px var(--lg-rim-soft),0 6px 14px -6px rgba(0,0,0,.45)}
+html body div.cr-root.lg[data-theme="light"] .ctrls .chip,html body div.cr-root.lg[data-theme="light"] .tswitch,html body div.cr-root.lg[data-theme="light"] .lz-chip{
+  background:linear-gradient(180deg,rgba(255,255,255,.85),var(--lg-float))!important;box-shadow:inset 0 1px 0 #fff,0 6px 14px -8px rgba(40,32,12,.3)}
+
+html body div.cr-root.lg[data-theme] .lz-menu,html body div.cr-root.lg[data-theme] .sheet{background:var(--lg-sheet)!important;border:0!important;
+  -webkit-backdrop-filter:blur(34px) saturate(190%);backdrop-filter:blur(34px) saturate(190%);
+  box-shadow:inset 0 1px 0 var(--lg-rim-2),inset 0 0 0 .5px var(--lg-rim-soft),0 30px 70px -20px rgba(0,0,0,.6)}
+html body div.cr-root.lg[data-theme="light"] .lz-menu,html body div.cr-root.lg[data-theme="light"] .sheet{box-shadow:inset 0 1px 0 #fff,inset 0 0 0 .5px rgba(255,255,255,.7),0 30px 70px -26px rgba(40,32,12,.35)}
+html body div.cr-root.lg[data-theme] .lz-seg,html body div.cr-root.lg[data-theme] .lz-row,html body div.cr-root.lg[data-theme] .seg-track{box-shadow:inset 0 1px 2px rgba(0,0,0,.28),inset 0 0 0 .5px var(--lg-rim-soft)}
+html body div.cr-root.lg[data-theme="light"] .lz-seg,html body div.cr-root.lg[data-theme="light"] .lz-row,html body div.cr-root.lg[data-theme="light"] .seg-track{box-shadow:inset 0 1px 2px rgba(40,32,12,.10),inset 0 0 0 .5px rgba(255,255,255,.8)}
+html body div.cr-root.lg[data-theme] .split .shell::before,.lg.split .shell::before{opacity:.6}
+@media (prefers-reduced-motion: reduce){.lz-menu,.split .shell>.pane-side{animation:none}html body div.cr-root.lg[data-theme] .glass:not(.tabbar)::after{animation:none}}
+@media (prefers-reduced-transparency: reduce){
+  html body div.cr-root.lg[data-theme] .tabbar,html body div.cr-root.lg[data-theme] .lz-menu,html body div.cr-root.lg[data-theme] .sheet{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--solid-2)!important}
+}
+html body div.cr-root.lg[data-theme] .wins-card.has-wins{background:radial-gradient(120% 70% at 0% 0%,rgba(var(--mint-rgb),.20),transparent 60%),linear-gradient(168deg,var(--lg-fill-hi),var(--lg-fill) 34%,var(--lg-fill-lo))!important}
+html body div.cr-root.lg[data-theme] .glass [style*="var(--pill)"]{box-shadow:inset 0 1px 0 var(--lg-rim-soft),inset 0 0 0 .5px var(--lg-rim-soft)}
